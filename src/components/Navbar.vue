@@ -4,9 +4,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 import Logo from "./Logo.vue";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "Services", href: "/services", current: false },
-  { name: "About", href: "/about", current: false },
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "About", href: "/about" },
 ];
 </script>
 
@@ -29,12 +29,12 @@ const navigation = [
             as="to"
             :to="item.href"
             :class="[
-              item.current
+              $route.fullPath === item.href
                 ? 'bg-purple-600 hover:bg-purple-400 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-400/30 text-white shadow-md'
                 : 'text-gray-900 hover:bg-purple-100 hover:shadow-purple-50 hover:shadow-md',
               'block rounded-full py-2 px-5 text-base font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2',
             ]"
-            :aria-current="item.current ? 'page' : undefined"
+            :aria-current="$route.fullPath === item.href ? 'page' : undefined"
             >{{ item.name }}</router-link
           >
         </div>
@@ -59,13 +59,13 @@ const navigation = [
           as="a"
           :href="item.href"
           :class="[
-            item.current
+            $route.fullPath === item.href
               ? 'bg-gray-100 text-gray-900'
               : 'text-gray-900 hover:bg-gray-50 hover:text-gray-900',
             'block rounded-md py-2 px-3 text-base font-medium',
             'm-3',
           ]"
-          :aria-current="item.current ? 'page' : undefined"
+          :aria-current="$route.fullPath === item.href ? 'page' : undefined"
           >{{ item.name }}</a
         >
       </div>
