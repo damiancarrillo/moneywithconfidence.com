@@ -28,7 +28,7 @@
           <div class="mt-10 flex">
             <a
               href="#"
-              class="bg-purple-600 hover:bg-purple-400 focus-visible:outline-purple-700 text-white shadow-lg rounded-full px-4 py-2.5 text-sm font-semibold"
+              class="bg-purple-600 hover:bg-purple-400 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-400/30 shadow-lg rounded-full px-5 py-3 text-sm font-semibold"
               >Start the Process</a
             >
           </div>
@@ -59,8 +59,8 @@
             </div>
             <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
               <img
-                src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                alt=""
+                src="/natasha-kitchen.jpg"
+                alt="Natasha in the kitchen with the kids"
                 class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
               />
             </div>
