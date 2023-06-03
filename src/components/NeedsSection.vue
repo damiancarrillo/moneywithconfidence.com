@@ -40,7 +40,7 @@
         class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32"
       >
         <h2 class="text-base font-semibold leading-7 text-indigo-400">
-          A spending plan will maximize growth over your lifetime
+          Spend Money. Not too much. Invest wisely.
         </h2>
         <p
           class="mt-2 text-4xl font-header font-bold tracking-tight text-white sm:text-4xl"
@@ -48,10 +48,10 @@
           I'm here to help
         </p>
         <p class="mt-6 text-base leading-7 text-gray-300">
-          The time is now. You need an intentional money plan to grow your money
-          more effectively. You can think of this plan as the insight you need
-          to make decisions about how your money flows coupled with goals and
-          strategies to maximize it over time.
+          You need an intentional money plan to grow your money more
+          effectively. This plan is the insight you need to make decisions about
+          how your money flows coupled with goals and strategies to maximize it
+          over time.
         </p>
         <div class="mt-8">
           <a
