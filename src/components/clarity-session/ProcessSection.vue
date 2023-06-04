@@ -46,7 +46,7 @@
               </div>
             </div>
             <img
-              src="natasha-picnic-table.jpg"
+              src="/natasha-picnic-table.jpg"
               alt="Natasha sitting at a colorful picnic table"
               class="rounded-xl"
             />
