@@ -55,7 +55,7 @@
         </p>
         <div class="mt-8">
           <a
-            href="#"
+            href="/services"
             class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >Start the process</a
           >
