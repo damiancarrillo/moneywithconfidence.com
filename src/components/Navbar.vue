@@ -6,6 +6,7 @@ import Logo from "./Logo.vue";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
+  { name: "Contact", href: "/contact" },
   { name: "About", href: "/about" },
 ];
 </script>

@@ -42,7 +42,7 @@ import {
 
 const features = [
   {
-    name: "Establish You Money Mindset & Values",
+    name: "Establish Your Money Mindset & Values",
     description:
       "Understand your money mindset. How do you feel about money and why? Identify your values, goals, and priorities. " +
       "What is important to you in life? What do you want to do more of and what do you want to do less of? Your Clarity Session will help you tease this apart.",

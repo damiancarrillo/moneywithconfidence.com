@@ -12,7 +12,7 @@
                   The Process
                 </h2>
                 <p
-                  class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                  class="mt-2 text-4xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
                 >
                   A Custom Plan for Your Money
                 </p>

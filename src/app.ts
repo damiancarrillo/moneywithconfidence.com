@@ -6,6 +6,7 @@ import App from "./App.vue";
 
 import Home from "./views/Home.vue";
 import Services from "./views/Services.vue";
+import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
 
 import Terms from "./views/Terms.vue";
@@ -17,6 +18,7 @@ const app = Vue.createApp(App);
 const navigationRoutes = [
   { path: "/", component: Home },
   { path: "/services", component: Services },
+  { path: "/contact", component: Contact },
   { path: "/about", component: About },
 ];
 
