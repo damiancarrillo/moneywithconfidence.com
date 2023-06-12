@@ -37,7 +37,7 @@
         </div>
         <div class="flex items-start justify-end lg:order-first">
           <img
-            src="natasha-vertical.jpg"
+            src="/natasha-vertical.jpg"
             alt="Natasha standing"
             class="rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width="800"
@@ -100,7 +100,7 @@
           </div>
         </div>
         <img
-          src="natasha-pants.jpg"
+          src="/natasha-pants.jpg"
           alt="Natasha standing in business attire"
           width="2432"
           height="1442"
@@ -141,7 +141,7 @@
         </div>
         <div class="flex items-start justify-end lg:order-first">
           <img
-            src="natasha-pants-forward.jpg"
+            src="/natasha-pants-forward.jpg"
             alt="Natasha standing and looking confident"
             class="rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width="800"
