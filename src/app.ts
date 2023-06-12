@@ -18,8 +18,8 @@ const app = Vue.createApp(App);
 const navigationRoutes = [
   { path: "/", component: Home },
   { path: "/services", component: Services },
-  { path: "/contact", component: Contact },
   { path: "/about", component: About },
+  { path: "/contact", component: Contact },
 ];
 
 const footerRoutes = [
