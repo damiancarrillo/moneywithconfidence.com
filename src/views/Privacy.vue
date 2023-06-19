@@ -7,7 +7,7 @@ import LegalContainer from "../components/LegalContainer.vue";
     <h1>Privacy Policy</h1>
     <p class="text-sm italic">Last Updated on 2022-08-24</p>
     <p>
-      We at Money With Confidence respect Your privacy. This Privacy Policy is
+      We at Money with Confidence respect Your privacy. This Privacy Policy is
       designed to explain how We collect, use, share, and protect the personal
       information You provide to Us when You access Our website, purchase Our
       goods or services, or engage with Us on social media, as well as Your own
@@ -157,7 +157,7 @@ import LegalContainer from "../components/LegalContainer.vue";
     <p>
       The information We collect and store is used primarily to allow Us to
       offer goods and services for sale. In addition, Black and Brown Make
-      Green, LLC DBA Money With Confidence may collect, use, and process Your
+      Green, LLC DBA Money with Confidence may collect, use, and process Your
       information based on the following grounds:
     </p>
 

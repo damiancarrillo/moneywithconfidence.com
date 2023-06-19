@@ -16,7 +16,7 @@ import LegalContainer from "../components/LegalContainer.vue";
     <h2>General Provisions</h2>
     <p>
       This website is owned and operated by Black and Brown Make Green, LLC DBA
-      Money With Confidence, a Texas company. Our principal place of business is
+      Money with Confidence, a Texas company. Our principal place of business is
       located at 10900 Research BLVD STE 160C PMB 1129 Austin, TX 78759.
     </p>
     <p>
@@ -58,7 +58,7 @@ import LegalContainer from "../components/LegalContainer.vue";
       processors such as Stripe. By utilizing these payment processors to gain
       access to the Offering, You indemnify Us and instead assume any and all
       risk or liability for the security of the payment details, and agree to be
-      bound by the third-party payment processor’s applicable terms and
+      bound by the third-party payment processor's applicable terms and
       conditions of use.
     </p>
 
@@ -79,7 +79,7 @@ import LegalContainer from "../components/LegalContainer.vue";
 
     <h3>Your Communications</h3>
     <p>
-      Any communications made through Our ‘contact’, blog, blog comments,
+      Any communications made through Our 'contact', blog, blog comments,
       newsletter sign up, or other related pages, or directly to Our phones or
       mailing or email addresses is not held privileged or confidential and is
       subject to viewing and distribution by third parties. We own any and all
