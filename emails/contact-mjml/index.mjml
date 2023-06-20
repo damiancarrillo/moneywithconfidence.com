@@ -1,0 +1,87 @@
+<mjml>
+  <mj-head>
+    <mj-title>Contact Form Submission</mj-title>
+    <mj-preview
+      >{{name}} has submitted the contact form from
+      moneywithconfidence.com.</mj-preview
+    >
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image
+          width="81px"
+          height="32px"
+          src="https://moneywithconfidence.com/logo-black.svg"
+        ></mj-image>
+        <mj-text align="center">
+          <h1>Contact Submission Form<h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text>
+          <h2>General Information</h2>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td>Name</td>
+            <td>{{name}}</td>
+          </tr>
+          <tr>
+            <td>Email address</td>
+            <td><a href="mailto:{{email}}">{{email}}</a></td>
+          </tr>
+          <tr>
+            <td>Where did you hear about Money with Confidence?</td>
+            <td>{{location}}</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text>
+          <h2>Interest(s)</h2>
+        </mj-text>
+        <mj-table>
+          <tr>
+            <td>One-on-one coaching</td>
+            <td>{{one-on-one-coaching}}</td>
+          </tr>
+          <tr>
+            <td>Workshop/facilitation</td>
+            <td>{{workshop-facilitation}}</td>
+          </tr>
+          <tr>
+            <td>Group coaching</td>
+            <td>{{group-coaching}}</td>
+          </tr>
+          <tr>
+            <td>Podcast Guesting</td>
+            <td>{{podcast-guesting}}</td>
+          </tr>
+          <tr>
+            <td>Media request</td>
+            <td>{{media-request}}</td>
+          </tr>
+          <tr>
+            <td>Other request</td>
+            <td>{{other-request}}</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text>
+          <h2>Questions and Comments</h2>
+        </mj-text>
+        <mj-text>
+          <p>{{comment}}</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

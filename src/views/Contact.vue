@@ -141,7 +141,6 @@
                       >
                         What are your interested in?
                       </h2>
-
                       <fieldset>
                         <legend class="sr-only">
                           one-on-one-financial-coaching
@@ -312,8 +311,8 @@
                               class="text-base font-semibold leading-7 text-gray-900 pb-1"
                             >
                               Where did you hear about Money with Confidence?
-                            </h2></ListboxLabel
-                          >
+                            </h2>
+                          </ListboxLabel>
                           <div class="relative mt-2">
                             <ListboxButton
                               class="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 sm:text-sm sm:leading-6"
@@ -330,7 +329,6 @@
                                 />
                               </span>
                             </ListboxButton>
-
                             <transition
                               leave-active-class="transition ease-in duration-100"
                               leave-from-class="opacity-100"
@@ -361,7 +359,6 @@
                                       ]"
                                       >{{ location.name }}</span
                                     >
-
                                     <span
                                       v-if="selected"
                                       :class="[
