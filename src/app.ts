@@ -8,6 +8,7 @@ import Home from "./views/Home.vue";
 import Services from "./views/Services.vue";
 import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
+import ClaritySessionBook from "./views/ClaritySessionBook.vue";
 
 import Terms from "./views/Terms.vue";
 import Privacy from "./views/Privacy.vue";
@@ -20,6 +21,7 @@ const navigationRoutes = [
   { path: "/services", component: Services },
   { path: "/about", component: About },
   { path: "/contact", component: Contact },
+  { path: "/services/clarity-session/book", component: ClaritySessionBook },
 ];
 
 const footerRoutes = [

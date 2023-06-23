@@ -9,7 +9,7 @@
             <div class="px-6 lg:px-0 lg:pr-4 lg:pt-4">
               <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
                 <p
-                  class="mt-2 text-4xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
+                  class="mt-2 text-2xl sm-text-4xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
                 >
                   A Custom Plan for Your Money
                 </p>

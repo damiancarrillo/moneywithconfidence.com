@@ -30,6 +30,15 @@
       </div>
     </div>
   </div>
+  <div class="mx-auto max-w-2xl md:text-center">
+    <div class="mt-14 items-center">
+      <a
+        href="/services/clarity-session/book"
+        class="bg-purple-600 hover:bg-purple-400 focus-visible:outline-purple-700 text-white shadow-lg shadow-purple-400/60 hover:shadow-purple-400/30 rounded-full px-7 py-3 text-xl font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+        >Book Now</a
+      >
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

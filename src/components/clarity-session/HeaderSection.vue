@@ -43,7 +43,7 @@ const features = [
 <template>
   <div class="bg-white py-10 sm:py-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:text-center">
+      <div class="mx-auto max-w-2xl md:text-center">
         <p
           class="mt-2 text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-5xl"
         >
@@ -55,6 +55,13 @@ const features = [
           <span class="font-bold text-pink-400">Clarity Session</span>: a
           coaching session that lays out a clear path for your money.
         </p>
+        <div class="mt-14 items-center">
+          <a
+            href="/services/clarity-session/book"
+            class="bg-purple-600 hover:bg-purple-400 focus-visible:outline-purple-700 text-white shadow-lg shadow-purple-400/60 hover:shadow-purple-400/30 rounded-full px-7 py-3 text-xl font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            >Book Now</a
+          >
+        </div>
       </div>
     </div>
   </div>
