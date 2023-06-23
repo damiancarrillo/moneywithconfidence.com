@@ -139,7 +139,7 @@
                       <h2
                         class="text-base font-semibold leading-7 text-gray-900 pb-4 mt-10"
                       >
-                        What are your interested in?
+                        What are you interested in?
                       </h2>
                       <fieldset>
                         <legend class="sr-only">
