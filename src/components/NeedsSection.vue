@@ -1,14 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="relative bg-gray-900">
+  <div class="relative bg-slate-900">
     <div
-      class="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
+      class="relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
     >
       <img
         class="h-full w-full object-cover"
-        src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
-        alt=""
+        src="/natasha-instructing.jpg"
+        alt="Natasha instructing a client"
       />
       <svg
         viewBox="0 0 926 676"
@@ -39,25 +39,25 @@
       <div
         class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32"
       >
-        <h2 class="text-base font-semibold leading-7 text-indigo-400">
+        <h2 class="text-base font-semibold leading-7 text-fuchsia-300">
           Spend Money. Not too much. Invest wisely.
         </h2>
         <p
           class="mt-2 text-4xl font-header font-bold tracking-tight text-white sm:text-4xl"
         >
-          I'm here to help
+          Put my plan in action
         </p>
-        <p class="mt-6 text-base leading-7 text-gray-300">
+        <p class="mt-6 text-base leading-7 text-white">
           You need an intentional money plan to grow your money more
           effectively. This plan is the insight you need to make decisions about
           how your money flows coupled with goals and strategies to maximize it
           over time.
         </p>
-        <div class="mt-8">
+        <div class="mt-10 flex">
           <a
             href="/services"
-            class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Start the process</a
+            class="bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 text-white shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30 shadow-lg rounded-full px-5 py-3 text-sm font-semibold"
+            >Start the Process</a
           >
         </div>
       </div>
