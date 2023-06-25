@@ -40,24 +40,22 @@
         class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32"
       >
         <h2 class="text-base font-semibold leading-7 text-fuchsia-300">
-          Spend Money. Not too much. Invest wisely.
+          You want your money to give you security and freedom
         </h2>
         <p
           class="mt-2 text-4xl font-header font-bold tracking-tight text-white sm:text-4xl"
         >
-          Put my plan in action
+          I'm here to help
         </p>
-        <p class="mt-6 text-base leading-7 text-white">
-          You need an intentional money plan to grow your money more
-          effectively. This plan is the insight you need to make decisions about
-          how your money flows coupled with goals and strategies to maximize it
-          over time.
+        <p class="mt-6 text-lg leading-7 text-white">
+          You need a clear path forward with your money. You need to feel like
+          things are moving in the right direction.
         </p>
         <div class="mt-10 flex">
           <a
             href="/services"
             class="bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 text-white shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30 shadow-lg rounded-full px-5 py-3 text-sm font-semibold"
-            >Start the Process</a
+            >Learn how</a
           >
         </div>
       </div>

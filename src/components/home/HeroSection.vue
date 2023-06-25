@@ -12,10 +12,10 @@
         class="pt-0 pb-8 md:pt-8 lg:pb-16 lg:pt-10 md:col-span-6 max-w-2xl mx-auto"
       >
         <h1
-          class="text-5xl md:text-5xl xl:text-6xl font-bold font-header tracking-tight text-gray-900 pt-6 lg:pt-8 xl:pt-10 2xl:pt-2"
+          class="text-5xl xl:text-6xl font-bold font-header tracking-tight text-gray-900 pt-6 lg:pt-8 xl:pt-10 2xl:pt-2"
         >
           Make a money plan you&rsquo;ll
-          <span id="love" class="uppercase">love</span>
+          <span class="uppercase highlighted">love</span>
         </h1>
         <p class="mt-6 text-lg text-black xl:text-xl 2xl:text-2xl">
           Coaching, conversations, and workshops to make you confident with your
@@ -42,11 +42,11 @@
 </template>
 
 <style scoped>
-#love {
+.highlighted {
   position: relative;
   z-index: 1;
 }
-#love::after {
+.highlighted::after {
   content: "";
   position: absolute;
 
