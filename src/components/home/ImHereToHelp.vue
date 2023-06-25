@@ -54,7 +54,7 @@
         <div class="mt-10 flex">
           <a
             href="/services"
-            class="bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 text-white shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30 shadow-lg rounded-full px-5 py-3 text-sm font-semibold"
+            class="bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 text-white shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
             >Learn how</a
           >
         </div>

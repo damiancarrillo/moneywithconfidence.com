@@ -28,7 +28,7 @@
           <div class="mt-10 flex">
             <a
               href="/services"
-              class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-sm font-semibold"
+              class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
               >Let&rsquo;s get started</a
             >
           </div>

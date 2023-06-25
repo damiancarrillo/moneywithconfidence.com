@@ -2,7 +2,7 @@
   <div class="bg-white py-16 sm:py-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="text-base font-semibold leading-7 text-cyan-500">
+        <h2 class="text-base font-semibold leading-7 text-cyan-600">
           It's time to change your money story
         </h2>
         <p
@@ -40,13 +40,14 @@
         </dl>
       </div>
       <p class="max-w-lg font-header text-2xl mx-auto text-center pt-14">
-        But one thing is certain. You’re ready to take the reins and truly
-        master your money.
+        But one thing is certain.
+        <span class="highlighted">You&rsquo;re ready</span> to take the reins
+        and truly master your money.
       </p>
       <div class="py-10 mb-10 mx-auto text-center">
         <a
           href="/services"
-          class="bg-cyan-600 hover:bg-cyan-700 focus-visible:outline-cyan-700 text-white shadow-cyan-400/30 hover:shadow-cyan-700/40 shadow-lg rounded-full px-6 py-3 text-sm font-semibold"
+          class="bg-cyan-600 hover:bg-cyan-700 focus-visible:outline-cyan-700 text-white shadow-cyan-400/30 hover:shadow-cyan-700/40 shadow-lg rounded-full px-6 py-3 text-base font-semibold"
           >I'm ready</a
         >
       </div>
@@ -69,7 +70,7 @@ const features = [
       "You have fear, shame, or anxiety around money; you avoid thinking about money or looking at your accounts.",
     href: "#",
     icon: FaceFrownIcon,
-    color: "text-pink-600",
+    color: "text-pink-400",
   },
   {
     name: "Uncertain or Unclear",
@@ -89,3 +90,22 @@ const features = [
   },
 ];
 </script>
+
+<style scoped>
+.highlighted {
+  position: relative;
+  z-index: 1;
+}
+.highlighted::after {
+  content: "";
+  position: absolute;
+
+  background-color: #fbcfe8;
+  height: 0.4em;
+  bottom: 0.4em;
+  left: -0.1em;
+  right: -0.1em;
+
+  z-index: -1;
+}
+</style>
