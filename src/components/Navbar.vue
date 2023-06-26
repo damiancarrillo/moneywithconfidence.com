@@ -54,7 +54,7 @@ const navigation = [
 
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 pb-3 pt-2">
-        <button
+        <a
           v-for="item in navigation"
           :key="item.name"
           as="a"
@@ -67,9 +67,8 @@ const navigation = [
             'm-3',
           ]"
           :aria-current="$route.fullPath === item.href ? 'page' : undefined"
+          >{{ item.name }}</a
         >
-          {{ item.name }}
-        </button>
       </div>
     </DisclosurePanel>
   </Disclosure>
