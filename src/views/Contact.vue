@@ -111,8 +111,7 @@
                           <div class="mt-2">
                             <input
                               type="text"
-                              name="name"
-                              id="name"
+                              v-model="name"
                               autocomplete="name"
                               class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
                             />
@@ -127,9 +126,8 @@
                           >
                           <div class="mt-2">
                             <input
-                              id="email"
-                              name="email"
                               type="email"
+                              v-model="email"
                               autocomplete="email"
                               class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
                             />
@@ -149,9 +147,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="one-on-one-financial-coaching"
                                 aria-describedby="one-on-one-financial-coaching-description"
-                                name="one-on-one-financial-coaching"
+                                v-model="oneOnOneFinancialCoaching"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -173,9 +170,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="workshop-facilitation"
                                 aria-describedby="workshop-facilitation-description"
-                                name="workshop-facilitation"
+                                v-model="workshopFacilitation"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -198,9 +194,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="group-coaching"
                                 aria-describedby="group-coaching-description"
-                                name="group-coaching"
+                                v-model="groupCoaching"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -223,9 +218,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="podcast-guesting"
                                 aria-describedby="podcast-guesting-description"
-                                name="podcast-guesting"
+                                v-model="podcastGuesting"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -254,9 +248,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="media-request"
                                 aria-describedby="media-request-description"
-                                name="media-request"
+                                v-model="mediaRequest"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -279,9 +272,8 @@
                           <div class="relative flex items-start">
                             <div class="flex h-6 items-center">
                               <input
-                                id="other-request"
                                 aria-describedby="other-request-description"
-                                name="other-request"
+                                v-model="otherRequest"
                                 type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
                               />
@@ -394,8 +386,7 @@
                         <div class="mt-2">
                           <textarea
                             rows="4"
-                            name="comment"
-                            id="comment"
+                            v-model="comment"
                             class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
                           />
                         </div>
@@ -405,7 +396,7 @@
 
                   <div class="mt-6 flex items-center justify-end gap-x-6">
                     <button
-                      type="submit"
+                      @click="submitForm"
                       class="rounded-full bg-purple-500 px-10 py-2 text-sm font-semibold text-white shadow-purple-400/50 hover:shadow-purple-400/30 shadow-md hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
                     >
                       Send
@@ -497,6 +488,16 @@ import {
 } from "@headlessui/vue";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
 
+let name = "";
+let email = "";
+let oneOnOneFinancialCoaching = false;
+let workshopFacilitation = false;
+let groupCoaching = false;
+let podcastGuesting = false;
+let mediaRequest = false;
+let otherRequest = false;
+let comment = "";
+
 const locations = [
   { id: "friend-or-word-of-mouth", name: "Friend or word of mouth" },
   { id: "podcast", name: "Podcast" },
@@ -508,4 +509,42 @@ const locations = [
 ];
 
 const selected = ref(locations[0]);
+
+function submitForm(event: Event) {
+  let interests: string[] = [];
+
+  if (oneOnOneFinancialCoaching) {
+    interests.push("one-on-one financial coaching");
+  }
+
+  if (workshopFacilitation) {
+    interests.push("workshop facilitation");
+  }
+
+  if (groupCoaching) {
+    interests.push("group coaching");
+  }
+
+  if (podcastGuesting) {
+    interests.push("podcast guesting");
+  }
+
+  if (mediaRequest) {
+    interests.push("media request");
+  }
+
+  if (otherRequest) {
+    interests.push("other request");
+  }
+
+  let contactForm = {
+    name,
+    email,
+    whatAreYouInterestedIN: interests.join(", "),
+    whereDidYouHearAboutMoneyWithConfidence: selected.value.name,
+    comment,
+  };
+
+  console.log(contactForm);
+}
 </script>
