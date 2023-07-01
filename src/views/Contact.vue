@@ -487,6 +487,7 @@ import {
   ListboxOptions,
 } from "@headlessui/vue";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
+import { type ContactForm } from "../assets/js/Model";
 
 let name = "";
 let email = "";
@@ -510,7 +511,7 @@ const locations = [
 
 const selected = ref(locations[0]);
 
-function submitForm(event: Event) {
+async function submitForm(event: Event) {
   let interests: string[] = [];
 
   if (oneOnOneFinancialCoaching) {
@@ -537,14 +538,30 @@ function submitForm(event: Event) {
     interests.push("other request");
   }
 
-  let contactForm = {
+  let contactForm: ContactForm = {
     name,
     email,
-    whatAreYouInterestedIN: interests.join(", "),
-    whereDidYouHearAboutMoneyWithConfidence: selected.value.name,
+    whatAreYouInterestedIn: interests.join(", "),
+    whereDidYouHearAboutMwc: selected.value.name,
     comment,
   };
 
-  console.log(contactForm);
+  const response = await fetch(
+    "https://moneywithconfidence.com/.netlify/functions/handle-contact-form",
+    {
+      method: "POST",
+      cache: "no-cache",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      redirect: "follow",
+      referrerPolicy: "no-referrer",
+      body: JSON.stringify(contactForm),
+    }
+  );
+
+  const responseBody = await response.body;
+
+  window.alert(responseBody);
 }
 </script>
