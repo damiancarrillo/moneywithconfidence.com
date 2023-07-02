@@ -85,9 +85,9 @@
                   Fill out the contact form below to connect, or you can reach
                   me at
                   <a
-                    href="mailto:info@moneywithconfidence.com?subject=Let%27s%20connect%21"
+                    href="mailto:hello@moneywithconfidence.com?subject=Let%27s%20connect%21"
                     class="hover:text-purple-500"
-                    >info@moneywithconfidence.com</a
+                    >hello@moneywithconfidence.com</a
                   >
                 </p>
                 <form novalidate>
