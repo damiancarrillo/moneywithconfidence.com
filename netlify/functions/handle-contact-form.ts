@@ -6,7 +6,10 @@ import {
   Sender,
   Recipient,
 } from "mailersend";
-import { type ContactForm } from "../../src/assets/js/Model";
+import {
+  type ContactForm,
+  isValidEmail,
+} from "../../src/assets/js/ContactForm";
 
 const CONTACT_FORM_SUBMISSION_TITLE = "Contact Form Submission";
 const CONTACT_FORM_SUBMISSION_TEMPLATE_ID = "0p7kx4xmmrvl9yjr";
@@ -44,6 +47,18 @@ export const handler: Handler = async (
     };
   }
 
+  const contactForm: ContactForm = JSON.parse(event.body);
+
+  if (!isValidEmail(contactForm.email)) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({
+        key: "INVALID_EMAIL",
+        message: "The supplied email is invalid",
+      }),
+    };
+  }
+
   const apiKey = process.env.MAILERSEND_PRODUCTION_API_KEY;
 
   if (apiKey === undefined) {
@@ -60,7 +75,6 @@ export const handler: Handler = async (
     apiKey: apiKey,
   });
 
-  const contactForm: ContactForm = JSON.parse(event.body);
   const sentFrom = new Sender(
     "hello@moneywithconfidence.com",
     "Contact Form - MwC Website"
@@ -107,9 +121,6 @@ export const handler: Handler = async (
 
   return {
     statusCode: 201,
-    headers: {
-      "Content-Type": "application/json; charset=utf-8",
-    },
     body: response.body,
   };
 };

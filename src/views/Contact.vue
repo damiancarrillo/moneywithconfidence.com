@@ -704,7 +704,7 @@
                   @click="openEmailValidationAlert = false"
                   ref="cancelButtonRef"
                 >
-                  Cancel
+                  Okay
                 </button>
               </div>
             </DialogPanel>
@@ -729,7 +729,7 @@ import {
   ChevronUpDownIcon,
   ExclamationTriangleIcon,
 } from "@heroicons/vue/20/solid";
-import { type ContactForm } from "../assets/js/Model";
+import { isValidEmail, type ContactForm } from "../assets/js/ContactForm";
 import {
   Dialog,
   DialogPanel,
@@ -748,7 +748,6 @@ let mediaRequest = false;
 let otherRequest = false;
 let comment = "";
 
-const emailRegex: RegExp = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 const locations = [
   { id: "friend-or-word-of-mouth", name: "Friend or word of mouth" },
   { id: "podcast", name: "Podcast" },
@@ -771,7 +770,7 @@ async function submitForm(event: Event) {
     return;
   }
 
-  if (!emailRegex.test(email)) {
+  if (!isValidEmail(email)) {
     document.getElementById("email")?.focus();
     openEmailValidationAlert.value = true;
     return;
@@ -825,3 +824,4 @@ async function submitForm(event: Event) {
   }
 }
 </script>
+../assets/js/ContactForm
