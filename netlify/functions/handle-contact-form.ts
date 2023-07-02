@@ -11,8 +11,12 @@ import {
   isValidEmail,
 } from "../../src/assets/js/ContactForm";
 
-const CONTACT_FORM_SUBMISSION_TITLE = "Contact Form Submission";
-const CONTACT_FORM_SUBMISSION_TEMPLATE_ID = "0p7kx4xmmrvl9yjr";
+const CONTACT_FORM_SUBMISSION_NATASHA_TITLE = "Contact Form Submission";
+const CONTACT_FORM_SUBMISSION_NATASHA_ID = "0p7kx4xmmrvl9yjr";
+
+const CONTACT_FORM_SUBMISSION_SUBMITTER_TITLE =
+  "Thanks for contacting Money with Confidence!";
+const CONTACT_FORM_SUBMISSION_SUBMITTER_ID = "3zxk54v76m64jy6v";
 
 export const handler: Handler = async (
   event: HandlerEvent,
@@ -75,20 +79,19 @@ export const handler: Handler = async (
     apiKey: apiKey,
   });
 
-  const sentFrom = new Sender(
+  const sender = new Sender(
     "hello@moneywithconfidence.com",
-    "Contact Form - MwC Website"
+    "Natasha @ Money with Confidence"
   );
-  const recipients = [
-    new Recipient("hello@moneywithconfidence.com", "Money with Confidence"),
-  ];
 
-  const emailParams = new EmailParams()
-    .setFrom(sentFrom)
-    .setTo(recipients)
-    .setReplyTo(sentFrom)
-    .setSubject(CONTACT_FORM_SUBMISSION_TITLE)
-    .setTemplateId(CONTACT_FORM_SUBMISSION_TEMPLATE_ID)
+  const natashaEmailParams = new EmailParams()
+    .setFrom(sender)
+    .setTo([
+      new Recipient("hello@moneywithconfidence.com", "Money with Confidence"),
+    ])
+    .setReplyTo(sender)
+    .setSubject(CONTACT_FORM_SUBMISSION_NATASHA_TITLE)
+    .setTemplateId(CONTACT_FORM_SUBMISSION_NATASHA_ID)
     .setVariables([
       {
         email: "hello@moneywithconfidence.com",
@@ -117,10 +120,31 @@ export const handler: Handler = async (
       },
     ]);
 
-  const response = await mailerSend.email.send(emailParams);
+  const submitterEmailParams = new EmailParams()
+    .setFrom(sender)
+    .setTo([new Recipient(contactForm.email, contactForm.name)])
+    .setReplyTo(sender)
+    .setSubject(CONTACT_FORM_SUBMISSION_SUBMITTER_TITLE)
+    .setTemplateId(CONTACT_FORM_SUBMISSION_SUBMITTER_ID)
+    .setVariables([
+      {
+        email: contactForm.email,
+        substitutions: [
+          {
+            var: "name",
+            value: contactForm.name,
+          },
+        ],
+      },
+    ]);
+
+  const results = {
+    natasha: (await mailerSend.email.send(natashaEmailParams)).body,
+    submitter: (await mailerSend.email.send(submitterEmailParams)).body,
+  };
 
   return {
     statusCode: 201,
-    body: response.body,
+    body: JSON.stringify(results),
   };
 };

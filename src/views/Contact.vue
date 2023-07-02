@@ -18,12 +18,6 @@
               <path d="M.5 200V.5H200" fill="none" />
             </pattern>
           </defs>
-          <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-            <path
-              d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-              stroke-width="0"
-            />
-          </svg>
           <rect
             width="100%"
             height="100%"
@@ -436,7 +430,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
+                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
                 </div>
@@ -450,7 +444,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
+                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
                   <div class="relative">
@@ -460,7 +454,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
+                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
                 </div>
@@ -472,7 +466,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
+                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
                   <div class="relative">
@@ -482,7 +476,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
+                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
                 </div>
@@ -824,4 +818,3 @@ async function submitForm(event: Event) {
   }
 }
 </script>
-../assets/js/ContactForm
