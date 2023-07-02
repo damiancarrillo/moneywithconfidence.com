@@ -103,10 +103,18 @@ export const handler: Handler = async (
       },
     ]);
 
-  const response = await mailerSend.email.send(emailParams);
+  // const response = await mailerSend.email.send(emailParams);
+
+  // return {
+  //   statusCode: 200,
+  //   body: response.body,
+  // };
 
   return {
-    statusCode: 200,
-    body: response.body,
+    statusCode: 201,
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+    },
+    body: JSON.stringify({ sent: true }),
   };
 };
