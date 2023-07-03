@@ -425,7 +425,7 @@
                 >
                   <div class="relative">
                     <img
-                      src="/natasha-contact-3.jpg"
+                      src="/natasha-contact-3.webp"
                       alt="Natasha explaining budgeting techniques to a client"
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -439,7 +439,7 @@
                 >
                   <div class="relative">
                     <img
-                      src="/natasha-contact-1.jpg"
+                      src="/natasha-contact-1.webp"
                       alt="Natasha laughing while looking at the camera"
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -449,7 +449,7 @@
                   </div>
                   <div class="relative">
                     <img
-                      src="/natasha-contact-4.jpg"
+                      src="/natasha-contact-4.webp"
                       alt="Natasha walking down a bridge"
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -457,11 +457,12 @@
                       class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
+                  F
                 </div>
                 <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                   <div class="relative">
                     <img
-                      src="/natasha-contact-2.jpg"
+                      src="/natasha-contact-2.webp"
                       alt="Natasha laughing"
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -471,7 +472,7 @@
                   </div>
                   <div class="relative">
                     <img
-                      src="/natasha-contact-5.jpg"
+                      src="/natasha-contact-5.webp"
                       alt="Natasha logging into her computer"
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
