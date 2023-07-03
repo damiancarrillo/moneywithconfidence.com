@@ -34,7 +34,7 @@
                 :href="tier.href"
                 :aria-describedby="tier.id"
                 class="bg-sky-500 hover:bg-sky-400 focus-visible:outline-sky-600 text-white shadow-sky-500/20 hover:shadow-sky-400/20 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
-                >Learn more</a
+                >Learn more about this</a
               >
             </div>
             <p class="mt-10 text-base font-semibold leading-6 text-gray-900">
