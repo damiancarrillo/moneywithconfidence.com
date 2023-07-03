@@ -73,7 +73,7 @@ const features = [
           class="overflow-hidden sm:mx-0 sm:max-w-2xl sm:rounded-3xl p-0 m-0"
         >
           <img
-            src="/natasha-you-got-this.jpg"
+            src="/natasha-you-got-this.webp"
             alt="Natasha letting you know that you got this"
             class="-mb-12 ring-1 ring-white/10"
           />

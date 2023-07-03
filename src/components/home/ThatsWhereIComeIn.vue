@@ -40,7 +40,7 @@
             class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end"
           >
             <img
-              src="/natasha-walking.jpg"
+              src="/natasha-walking.webp"
               alt="Natasha walking toward the camera while on the phone"
               class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
             />
@@ -52,14 +52,14 @@
               class="order-first flex w-64 flex-none justify-end self-end lg:w-auto"
             >
               <img
-                src="/natasha-lauren-talking.jpg"
+                src="/natasha-lauren-talking.webp"
                 alt="Natasha and Lauren talking"
                 class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
               />
             </div>
             <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
               <img
-                src="/natasha-laughing.jpg"
+                src="/natasha-laughing.webp"
                 alt="Natasha laughing"
                 class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
               />
@@ -68,7 +68,7 @@
               class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
             >
               <img
-                src="/natasha-bee.jpg"
+                src="/natasha-bee.webp"
                 alt="Natasha working on the computer"
                 class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
               />

@@ -33,7 +33,7 @@
         <div class="flex-grow"></div>
         <img
           class="z-50"
-          src="/natasha-hero.jpg"
+          src="/natasha-hero.webp"
           alt="A picture oƒ Natasha smiling"
         />
       </div>

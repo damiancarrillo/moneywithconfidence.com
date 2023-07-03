@@ -7,7 +7,7 @@
     >
       <img
         class="h-full w-full object-cover"
-        src="/natasha-instructing.jpg"
+        src="/natasha-instructing.webp"
         alt="Natasha instructing a client"
       />
       <svg
