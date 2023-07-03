@@ -54,17 +54,15 @@
           />
         </div>
         <div class="overflow-hidden">
-          <div
-            class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32"
-          >
+          <div class="mx-auto max-w-7xl px-6 pb-32 pt-14 lg:pt-10 xl:pt-14">
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none"
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h1
-                  class="text-4xl font-bold font-header tracking-tight text-gray-900 sm:text-6xl"
+                  class="text-5xl font-bold font-header tracking-tight text-gray-900"
                 >
-                  Let's reimagine your money together.
+                  Let's reimagine your money together
                 </h1>
                 <p
                   class="relative mt-6 text-xl leading-8 text-gray-900 sm:max-w-md lg:max-w-none"
@@ -457,7 +455,6 @@
                       class="pointer-events-none absolute inset-0 rounded-xl ring-0"
                     />
                   </div>
-                  F
                 </div>
                 <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                   <div class="relative">
