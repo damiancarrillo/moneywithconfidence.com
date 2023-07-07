@@ -13,7 +13,9 @@
         <img
           class="aspect-video rounded-xl bg-gray-50 object-cover"
           src="/natasha-about-yellow.webp"
-          alt=""
+          width="1728"
+          height="1152"
+          alt="A photo of Natasha sitting on the ground while working on the computer and looking at the camera"
         />
       </figure>
       <p class="mt-6 text-xl leading-8">
@@ -34,10 +36,12 @@
           family that allow us to live a life we love. I have been fortunate to
           help others do the same, and I&rsquo;m here to help you. My husband
           and I share our money story and the stories of others on our podcast
-          Black and Brown Make Green. It&rsquo;s our way to help you DIY your
-          financial growth, but if you&rsquo;re wanting a little more support
-          and guidance relevant to your specific situation, I&rsquo;m your girl.
-          I can&rsquo;t wait to meet you!
+          <a class="text-purple-500" href="https://blackandbrownmakegreen.com"
+            >Black and Brown Make Green</a
+          >. It&rsquo;s our way to help you DIY your financial growth, but if
+          you&rsquo;re wanting a little more support and guidance relevant to
+          your specific situation, I&rsquo;m your girl. I can&rsquo;t wait to
+          meet you!
         </p>
         <p class="mt-10">&dash; Natasha Carrillo</p>
       </div>
