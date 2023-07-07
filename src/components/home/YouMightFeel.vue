@@ -101,7 +101,7 @@ const features = [
   position: absolute;
 
   background-color: #fbcfe8;
-  height: 0.4em;
+  height: 0.5em;
   bottom: 0.4em;
   left: -0.1em;
   right: -0.1em;

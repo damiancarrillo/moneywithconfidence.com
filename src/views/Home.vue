@@ -15,5 +15,3 @@ import YouGotThis from "../components/home/YouGotThis.vue";
   <WaysWeCanWorkTogether></WaysWeCanWorkTogether>
   <YouGotThis></YouGotThis>
 </template>
-
-<style scoped></style>
