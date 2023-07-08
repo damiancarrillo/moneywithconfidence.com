@@ -42,7 +42,7 @@
             <img
               src="/natasha-walking.webp"
               alt="Natasha walking toward the camera while on the phone"
-              class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+              class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-2xl"
             />
           </div>
           <div

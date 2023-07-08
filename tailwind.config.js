@@ -3,7 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      header: ["Kalam", "ui-sans-serif"],
+      header: ["Kalam", "cursive"],
+      signature: ["Dancing Script", "cursive"],
     },
     extend: {},
   },

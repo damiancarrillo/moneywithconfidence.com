@@ -75,7 +75,7 @@ const features = [
           <img
             src="/natasha-you-got-this.webp"
             alt="Natasha letting you know that you got this"
-            class="-mb-12 ring-1 ring-white/10"
+            class="-mb-12 ring-1 ring-white/10 shadow-2xl"
           />
         </div>
       </div>

@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import SectionOne from "../components/about/SectionOne.vue";
-import SectionTwo from "../components/about/SectionTwo.vue";
+import MeetNatasha from "../components/about/MeetNatasha.vue";
+import LetsMakeThingsHappen from "../components/about/LetsMakeThingsHappen.vue";
+import CantWaitToMeetYou from "../components/about/CantWaitToMeetYou.vue";
 </script>
 
 <template>
-  <SectionOne></SectionOne>
+  <MeetNatasha></MeetNatasha>
   <hr />
-  <SectionTwo></SectionTwo>
+  <LetsMakeThingsHappen></LetsMakeThingsHappen>
+  <hr />
+  <CantWaitToMeetYou></CantWaitToMeetYou>
 </template>
