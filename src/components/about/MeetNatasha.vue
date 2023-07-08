@@ -1,29 +1,5 @@
 <template>
   <div class="bg-white px-6 py-12 pb-20 lg:px-8">
-    <svg
-      viewBox="0 0 926 676"
-      aria-hidden="true"
-      class="absolute -bottom-96 left-24 w-[57.875rem] transform-gpu blur-[118px] opacity-60 object-cover"
-    >
-      <path
-        fill="url(#60c3c621-93e0-4a09-a0e6-4c228a0116d8)"
-        fill-opacity=".4"
-        d="m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z"
-      />
-      <defs>
-        <linearGradient
-          id="60c3c621-93e0-4a09-a0e6-4c228a0116d8"
-          x1="926.392"
-          x2="-109.635"
-          y1=".176"
-          y2="321.024"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#776FFF" />
-          <stop offset="1" stop-color="#FF4694" />
-        </linearGradient>
-      </defs>
-    </svg>
     <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
       <p class="text-base font-semibold leading-7 text-purple-600">
         I'm here to help
