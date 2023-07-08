@@ -9,7 +9,7 @@
           <h1
             class="mt-2 text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
           >
-            I have your best interests in mind
+            I'm here for you
           </h1>
           <div
             class="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2"
