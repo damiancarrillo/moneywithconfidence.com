@@ -72,7 +72,7 @@
           </div>
         </div>
       </div>
-      <div class="relative overflow-hidden pt-16 lg:pt-20">
+      <div class="relative overflow-hidden lg:pt-20">
         <div class="mx-auto max-w-7xl">
           <img
             class="rounded-xl"
