@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white px-6 py-12 lg:px-8">
-    <div class="mx-auto max-w-3xl text-base leading-7 text-gray-900">
+  <div class="bg-white px-6 py-12 pb-20 lg:px-8">
+    <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
       <p class="text-base font-semibold leading-7 text-purple-600">
         I'm here to help
       </p>
@@ -36,7 +36,9 @@
           family that allow us to live a life we love. I have been fortunate to
           help others do the same, and I&rsquo;m here to help you. My husband
           and I share our money story and the stories of others on our podcast
-          <a class="text-purple-500" href="https://blackandbrownmakegreen.com"
+          <a
+            class="underline text-purple-800 hover:text-purple-400"
+            href="https://blackandbrownmakegreen.com"
             >Black and Brown Make Green</a
           >. It&rsquo;s our way to help you DIY your financial growth, but if
           you&rsquo;re wanting a little more support and guidance relevant to

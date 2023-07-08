@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import HeaderSection from "../components/about/HeaderSection.vue";
+import SectionOne from "../components/about/SectionOne.vue";
+import SectionTwo from "../components/about/SectionTwo.vue";
 </script>
 
 <template>
-  <HeaderSection></HeaderSection>
+  <SectionOne></SectionOne>
+  <hr />
+  <SectionTwo></SectionTwo>
 </template>
