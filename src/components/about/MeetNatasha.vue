@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white px-6 py-12 pb-20 lg:px-8">
+  <div class="bg-white px-6 py-12 pb-16 lg:px-8">
     <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
       <p class="text-base font-semibold leading-7 text-purple-600">
         I'm here to help
@@ -11,7 +11,7 @@
       </h1>
       <figure class="mt-10">
         <img
-          class="aspect-video rounded-xl bg-gray-50 object-cover"
+          class="aspect-square lg:aspect-video rounded-xl bg-gray-50 object-cover"
           src="/natasha-about-yellow.webp"
           width="1728"
           height="1152"
