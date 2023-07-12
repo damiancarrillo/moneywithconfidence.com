@@ -43,11 +43,20 @@
               </p>
               <p class="mt-8">
                 Our stories may not be the same but there&rsquo;s one thing I
-                know we have in common: we both want to spend worry-free and
-                feel financially set and secure. You want the best for yourself,
-                and you want to partner with someone who has your best interests
-                in mind.
+                know we have in common:
+                <span class="font-semibold"
+                  >we both want to spend worry-free and feel financially set and
+                  secure</span
+                >. You want the best for yourself, and you want to partner with
+                someone who has your best interests in mind.
               </p>
+            </div>
+            <div class="mt-10 flex">
+              <a
+                href="/services"
+                class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+                >Let&rsquo;s work together</a
+              >
             </div>
           </div>
         </div>

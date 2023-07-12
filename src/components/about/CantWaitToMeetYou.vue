@@ -24,7 +24,7 @@
                 I have a BS in early childhood through 4th grade education and a
                 Master&rsquo;s degree in Educational Technology. I worked in the
                 education field as an elementary teacher, K-5 instructional
-                coach, childcare provider, and for 10 years. I hold a K-12
+                coach, and childcare provider for 10 years. I hold a K-12
                 principal&rsquo;s certification and completed a certification to
                 be a Financial Education Instructor. I currently volunteer with
                 <a
@@ -35,7 +35,7 @@
                 as a financial mentor.
               </p>
               <p class="mt-8">
-                This background gives me an excellent foundation for as
+                This background gives me an excellent foundation to be your
                 financial coach and educator. I have a deep passion for money
                 topics and an uncanny ability to see beyond the numbers.
                 <span class="font-semibold"
@@ -43,6 +43,13 @@
                   forward</span
                 >.
               </p>
+            </div>
+            <div class="mt-10 flex">
+              <a
+                href="/services"
+                class="bg-sky-500 hover:bg-sky-400 focus-visible:outline-sky-600 text-white shadow-sky-500/50 hover:shadow-sky-400/30 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+                >Let&rsquo;s work together</a
+              >
             </div>
           </div>
         </div>
