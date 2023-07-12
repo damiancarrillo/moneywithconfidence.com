@@ -32,8 +32,8 @@ const navigation = [
             :class="[
               $route.fullPath === item.href
                 ? 'bg-orange-100 hover:bg-orange-200 focus-visible:outline-orange-300 text-orange-600 shadow-sm'
-                : 'text-purple-600 hover:bg-purple-100 hover:shadow-purple-50 hover:shadow-md',
-              'block rounded-full py-2 px-5 text-base font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2',
+                : 'text-purple-600 hover:bg-purple-100 hover:shadow-purple-50 hover:shadow-md focus-visible:outline-purple-100',
+              'block rounded-full py-2 px-5 text-base font-medium focus-visible:outline-2 focus-visible:outline-offset-2',
             ]"
             :aria-current="$route.fullPath === item.href ? 'page' : undefined"
             >{{ item.name }}</router-link
