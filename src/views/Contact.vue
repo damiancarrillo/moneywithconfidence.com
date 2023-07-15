@@ -2,86 +2,15 @@
   <div class="bg-white">
     <main>
       <div class="relative isolate">
-        <svg
-          class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-          aria-hidden="true"
-        >
-          <defs>
-            <pattern
-              id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-              width="200"
-              height="200"
-              x="50%"
-              y="-1"
-              patternUnits="userSpaceOnUse"
-            >
-              <path d="M.5 200V.5H200" fill="none" />
-            </pattern>
-          </defs>
-          <rect
-            width="100%"
-            height="100%"
-            stroke-width="0"
-            fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
-          />
-        </svg>
-        <div
-          class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-          aria-hidden="true"
-        >
-          <div
-            class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-            style="
-              clip-path: polygon(
-                63.1% 29.5%,
-                100% 17.1%,
-                76.6% 3%,
-                48.4% 0%,
-                44.6% 4.7%,
-                54.5% 25.3%,
-                59.8% 49%,
-                55.2% 57.8%,
-                44.4% 57.2%,
-                27.8% 47.9%,
-                35.1% 81.5%,
-                0% 97.7%,
-                39.2% 100%,
-                35.2% 81.4%,
-                97.2% 52.8%,
-                63.1% 29.5%
-              );
-            "
-          />
-        </div>
+        <SquareLines></SquareLines>
+        <BlurredBackground></BlurredBackground>
         <div class="overflow-hidden">
           <div class="mx-auto max-w-7xl px-6 pb-32 pt-14 lg:pt-10 xl:pt-14">
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none"
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                <h1
-                  class="text-5xl font-bold font-header tracking-tight text-gray-900"
-                >
-                  Let's reimagine your money together
-                </h1>
-                <p
-                  class="relative mt-6 text-xl leading-8 text-gray-900 sm:max-w-md lg:max-w-none"
-                >
-                  Thank you for your interest in Money with Confidence. I look
-                  forward to supporting you or your organization or team on your
-                  money journey.
-                </p>
-                <p
-                  class="relative mt-6 text-med leading-8 text-gray-900 sm:max-w-md lg:max-w-none"
-                >
-                  Fill out the contact form below to connect, or you can reach
-                  me at
-                  <a
-                    href="mailto:hello@moneywithconfidence.com?subject=Let%27s%20connect%21"
-                    class="hover:text-purple-500"
-                    >hello@moneywithconfidence.com</a
-                  >
-                </p>
+                <IntroSection></IntroSection>
                 <form novalidate>
                   <div class="space-y-12 pt-16">
                     <div class="border-b border-gray-900/10 pb-12">
@@ -721,6 +650,9 @@ import {
   ChevronUpDownIcon,
   ExclamationTriangleIcon,
 } from "@heroicons/vue/20/solid";
+import SquareLines from "../components/contact/SquareLines.vue";
+import BlurredBackground from "../components/contact/BlurredBackground.vue";
+import IntroSection from "../components/contact/IntroSection.vue";
 import { isValidEmail, type ContactForm } from "../assets/js/ContactForm";
 import {
   Dialog,
