@@ -55,7 +55,7 @@
         </div>
         <div class="lg:pr-4">
           <img
-            class="aspect-square object-top object-cover rounded-xl"
+            class="aspect-square object-top object-cover rounded-xl shadow-xl"
             src="/natasha-computer.webp"
             alt="Natasha drinking coffee while at the computer"
           />

@@ -9,6 +9,13 @@ const navigation = [
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
+
+function fullPathMatchesItemHref(fullPath: string, itemHref: string): Boolean {
+  if (itemHref === "/") {
+    return fullPath === "/" || fullPath === "";
+  }
+  return fullPath.startsWith(itemHref);
+}
 </script>
 
 <template>
@@ -30,7 +37,7 @@ const navigation = [
             as="to"
             :to="item.href"
             :class="[
-              $route.fullPath === item.href
+              fullPathMatchesItemHref($route.fullPath, item.href)
                 ? 'bg-orange-100 hover:bg-orange-200 focus-visible:outline-orange-300 text-orange-600 shadow-sm'
                 : 'text-purple-600 hover:bg-purple-100 hover:shadow-purple-50 hover:shadow-md focus-visible:outline-purple-100',
               'block rounded-full py-2 px-5 text-base font-medium focus-visible:outline-2 focus-visible:outline-offset-2',
