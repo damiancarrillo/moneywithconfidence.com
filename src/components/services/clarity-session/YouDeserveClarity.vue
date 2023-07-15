@@ -39,7 +39,7 @@
       <div class="mx-auto max-w-2xl mt-16 mb-20">
         <p class="mt-6 text-lg leading-8 text-gray-900">
           But now you&rsquo;re ready to let go of fear, doubt, and uncertainty
-          and make a clear plan for your money That&rsquo;s where I come in.
+          and make a clear plan for your money. That&rsquo;s where I come in.
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-900">
           I&rsquo;m Natasha, and I specialize in making money easy to
