@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white px-6 py-12 pb-16 lg:px-8">
+  <div class="bg-white px-6 py-12 pb-16 lg:px-8 md:pt-20">
     <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
       <p class="text-base font-semibold leading-7 text-purple-600">
-        I'm here to help
+        I'm here for you
       </p>
       <h1
         class="mt-2 text-5xl font-bold font-header tracking-tight text-gray-900 sm:text-5xl"
@@ -11,7 +11,7 @@
       </h1>
       <figure class="mt-10">
         <img
-          class="aspect-square lg:aspect-video rounded-xl bg-gray-50 object-cover"
+          class="aspect-square lg:aspect-video rounded-xl bg-gray-50 object-cover shadow-xl"
           src="/natasha-about-yellow.webp"
           width="1728"
           height="1152"
@@ -45,17 +45,14 @@
           your specific situation, I&rsquo;m your girl. I can&rsquo;t wait to
           meet you!
         </p>
-        <p class="mt-10 font-signature text-4xl">&dash; Natasha Carrillo</p>
+        <Signature></Signature>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-} from "@heroicons/vue/20/solid";
+import Signature from "../Signature.vue";
 </script>
 
 <style scoped>

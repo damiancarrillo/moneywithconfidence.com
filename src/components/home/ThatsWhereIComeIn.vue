@@ -3,7 +3,7 @@
 <style scoped></style>
 
 <template>
-  <div class="overflow-hidden bg-white">
+  <div class="bg-white pb-10 overflow-hidden">
     <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
@@ -42,7 +42,7 @@
             <img
               src="/natasha-walking.webp"
               alt="Natasha walking toward the camera while on the phone"
-              class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-2xl"
+              class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-xl"
             />
           </div>
           <div
@@ -54,14 +54,14 @@
               <img
                 src="/natasha-lauren-talking.webp"
                 alt="Natasha and Lauren talking"
-                class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover shadow-xl"
               />
             </div>
             <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
               <img
                 src="/natasha-laughing.webp"
                 alt="Natasha laughing"
-                class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover shadow-xl"
               />
             </div>
             <div
@@ -70,7 +70,7 @@
               <img
                 src="/natasha-bee.webp"
                 alt="Natasha working on the computer"
-                class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-xl"
               />
             </div>
           </div>

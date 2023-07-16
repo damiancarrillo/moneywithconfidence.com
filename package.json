@@ -14,6 +14,7 @@
     "@netlify/functions": "^1.6.0",
     "@types/node": "^14.18.52",
     "mailersend": "^2.1.2",
+    "netlify-cli": "^15.9.0",
     "vue": "^3.2.47",
     "vue-router": "^4.2.1"
   },

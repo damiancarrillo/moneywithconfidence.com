@@ -5,10 +5,13 @@ import "./style.css";
 import App from "./App.vue";
 
 import Home from "./views/Home.vue";
-import Services from "./views/Services.vue";
+import Services from "./views/services/Index.vue";
 import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
-import ClaritySessionBook from "./views/ClaritySessionBook.vue";
+
+import ServicesClaritySession from "./views/services/ClaritySession.vue";
+import ServicesSpeakingAndWorkshops from "./views/services/SpeakingAndWorkshops.vue";
+import ServicesMoneyAndMocktails from "./views/services/MoneyAndMocktails.vue";
 
 import Terms from "./views/Terms.vue";
 import Privacy from "./views/Privacy.vue";
@@ -21,7 +24,18 @@ const navigationRoutes = [
   { path: "/services", component: Services },
   { path: "/about", component: About },
   { path: "/contact", component: Contact },
-  { path: "/services/clarity-session/book", component: ClaritySessionBook },
+];
+
+const servicesRoutes = [
+  { path: "/services/clarity-session", component: ServicesClaritySession },
+  {
+    path: "/services/speaking-and-workshops",
+    component: ServicesSpeakingAndWorkshops,
+  },
+  {
+    path: "/services/money-and-mocktails",
+    component: ServicesMoneyAndMocktails,
+  },
 ];
 
 const footerRoutes = [
@@ -35,7 +49,7 @@ const router = VueRouter.createRouter({
     return { top: 0 }; // always scroll to top
   },
   history: VueRouter.createWebHistory(),
-  routes: navigationRoutes.concat(footerRoutes),
+  routes: navigationRoutes.concat(servicesRoutes).concat(footerRoutes),
 });
 
 app.use(router);

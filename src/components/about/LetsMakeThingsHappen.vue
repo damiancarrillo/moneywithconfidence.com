@@ -6,9 +6,9 @@
       >
         <div class="lg:pr-4">
           <img
-            class="aspect-square object-top object-cover rounded-xl"
+            class="aspect-square object-top object-cover rounded-xl shadow-xl"
             src="/natasha-hips.webp"
-            alt=""
+            alt="Natasha posing with her hands on her hips"
           />
         </div>
         <div>

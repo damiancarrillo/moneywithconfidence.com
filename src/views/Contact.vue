@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white md:pt-14">
     <main>
       <div class="relative isolate">
         <SquareLines></SquareLines>
