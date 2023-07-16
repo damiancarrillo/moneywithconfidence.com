@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl sm:text-center">
         <h2 class="text-base font-semibold leading-7 text-purple-500">
-          It&rsquo;s time. Manage your money with confidence.
+          It&rsquo;s time to manage your money with confidence
         </h2>
         <p
           class="mt-4 text-5xl font-bold font-header tracking-tight text-gray-900"
@@ -15,7 +15,7 @@
             >Make an intentional plan for your money</strong
           >
           that you will love with a
-          <span class="highlighted">Clarity Session</span>: a one-on-one
+          <strong class="font-semibold">Clarity Session</strong>: a one-on-one
           coaching session that
           <strong class="font-semibold"
             >lays out a clear path for your money.</strong
@@ -45,8 +45,8 @@
       <div class="mx-auto max-w-2xl text-gray-900">
         <p class="mt-10 text-lg leading-8">
           Schedule your Clarity Session and leave with a solid understanding of
-          your current money situation, two to five defined goals, and a written
-          action plan to
+          your current money situation, two to five well-defined goals, and a
+          written action plan to
           <strong class="font-semibold"
             >eliminate debt, increase your wealth, and live a life that is
             aligned with your deepest desires</strong
@@ -60,22 +60,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.highlighted {
-  position: relative;
-  z-index: 1;
-}
-.highlighted::after {
-  content: "";
-  position: absolute;
-
-  background-color: #fbcfe8;
-  height: 0.6em;
-  bottom: 0em;
-  left: -0.1em;
-  right: -0.1em;
-
-  z-index: -1;
-}
-</style>

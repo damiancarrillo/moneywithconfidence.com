@@ -5,7 +5,7 @@ import Logo from "./Logo.vue";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
+  { name: "Services", href: "/services/clarity-session" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
