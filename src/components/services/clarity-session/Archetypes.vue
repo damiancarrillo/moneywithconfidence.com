@@ -21,7 +21,6 @@
             >
               {{ person.name }}
             </h3>
-            <p class="text-base leading-7 text-yellow-700">{{ person.role }}</p>
             <p class="mt-6 text-base leading-7 text-yellow-700">
               {{ person.bio }}
             </p>
@@ -35,14 +34,12 @@
 <script setup lang="ts">
 const people = [
   {
-    name: "Fearful Freddy",
-    role: "Fear, Shame, or Anxiety",
+    name: "Fear, Shame, or Anxiety",
     imageUrl: "/pexels-team-maestroo-4320385.webp",
     bio: "You have fear, shame, or anxiety around money; you avoid thinking about money or looking at your accounts.",
   },
   {
-    name: "Doubtful Debbie",
-    role: "Uncertain or Unconfident",
+    name: "Uncertain or Unconfident",
     imageUrl: "/pexels-alex-green-5700201.webp",
     bio: "You are doing ok, but you know you could be doing better; You haven’t fully figured out the missing parts.",
   },
