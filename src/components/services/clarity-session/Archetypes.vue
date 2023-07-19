@@ -1,6 +1,6 @@
 <template>
   <div class="bg-yellow-50 py-4">
-    <div class="mx-auto max-w-6xl">
+    <div class="mx-auto max-w-6xl px-6">
       <ul
         role="list"
         class="mx-auto my-12 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
@@ -36,15 +36,15 @@
 const people = [
   {
     name: "Fearful Freddy",
-    role: "Represents fear and anxiety",
+    role: "Fear, Shame, or Anxiety",
     imageUrl: "/pexels-team-maestroo-4320385.webp",
-    bio: "You have fear, shame, or anxiety around money. You avoid even thinking about money or even looking at their accounts.",
+    bio: "You have fear, shame, or anxiety around money; you avoid thinking about money or looking at your accounts.",
   },
   {
-    name: "Confused Chlöe",
-    role: "Represents confusion and uncertainty",
+    name: "Doubtful Debbie",
+    role: "Uncertain or Unconfident",
     imageUrl: "/pexels-alex-green-5700201.webp",
-    bio: "You are doing ok, but you just know you could be doing better. You haven't fully figured out the missing link to effective money management.",
+    bio: "You are doing ok, but you know you could be doing better; You haven’t fully figured out the missing parts.",
   },
 ];
 </script>

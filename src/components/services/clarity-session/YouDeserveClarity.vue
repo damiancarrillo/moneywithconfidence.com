@@ -1,18 +1,17 @@
 <template>
   <div class="bg-white">
     <div class="">
-      <div class="mx-auto max-w-2xl pb-10">
+      <div class="mx-auto max-w-2xl pb-10 px-6">
         <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl">
           You deserve clarity
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-900">
-          I have talked with numerous women and men about their finances.
-          Everyone&rsquo;s story is different but they often see a lot of
-          similarities with one of the following archetypes:
+          I have talked with a number of women and men who tend to be in one of
+          two camps. Do either of these resonate with you?
         </p>
       </div>
       <Archetypes></Archetypes>
-      <div class="mx-auto max-w-2xl mt-16 mb-20">
+      <div class="mx-auto max-w-2xl mt-16 mb-20 px-6">
         <p class="mt-6 text-lg leading-8 text-gray-900">
           But now you&rsquo;re ready to let go of fear, doubt, and uncertainty
           and make a clear plan for your money. That&rsquo;s where I come in.

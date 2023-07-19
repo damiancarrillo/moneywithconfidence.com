@@ -25,7 +25,7 @@
                 <div class="font-semibold text-pink-950">
                   Workshop Participant
                 </div>
-                <div class="mt-1 text-pink-600">Breakthrough Austin</div>
+                <div class="mt-1 text-pink-700">Breakthrough Austin</div>
               </div>
             </figcaption>
           </figure>
@@ -50,7 +50,7 @@
               />
               <div class="text-base">
                 <div class="font-semibold text-red-950">Andrea F.</div>
-                <div class="mt-1 text-pink-600">Clarity Session Client</div>
+                <div class="mt-1 text-pink-700">Clarity Session Client</div>
               </div>
             </figcaption>
           </figure>
