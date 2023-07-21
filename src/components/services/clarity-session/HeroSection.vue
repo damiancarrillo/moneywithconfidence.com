@@ -23,7 +23,8 @@
         </p>
         <div class="mt-10 text-center">
           <a
-            href="#book-clarity-session"
+            href="https://tidycal.com/moneywithconfidence/clarity-session"
+            target="_blank"
             class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
             >Yes, I need this</a
           >
@@ -35,7 +36,7 @@
         <img
           src="/natasha-clarity.webp"
           alt="Natasha sitting down while talking on the phone"
-          class="rounded-xl shadow-xl ring-1 ring-gray-900/10"
+          class="rounded-xl shadow-xl"
           width="1200"
           height="800"
         />
@@ -50,7 +51,7 @@
           <strong class="font-semibold"
             >eliminate debt, increase your wealth, and live a life that is
             aligned with your deepest desires</strong
-          >.
+          >. One-time fee: $550 USD.
         </p>
         <p class="mt-6 leading-8">
           I believe that managing your money should be easy. Money is not
