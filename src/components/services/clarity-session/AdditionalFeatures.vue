@@ -1,8 +1,10 @@
 <template>
   <div class="max-w-2xl mx-auto py-20">
-    <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl pb-12">
-      Here&rsquo;s a sneak peak of what else is included
-    </h2>
+    <div class="px-6">
+      <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl pb-12">
+        Here&rsquo;s a sneak peak of what else is included
+      </h2>
+    </div>
     <div
       class="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0"
     >
