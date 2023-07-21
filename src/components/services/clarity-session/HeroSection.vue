@@ -51,7 +51,7 @@
           <strong class="font-semibold"
             >eliminate debt, increase your wealth, and live a life that is
             aligned with your deepest desires</strong
-          >.
+          >. One-time fee: $550 USD.
         </p>
         <p class="mt-6 leading-8">
           I believe that managing your money should be easy. Money is not

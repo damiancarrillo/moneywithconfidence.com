@@ -27,6 +27,14 @@
           money with confidence. Let&rsquo;s get started!
         </p>
         <Signature></Signature>
+        <div class="mt-14 text-center">
+          <a
+            href="https://tidycal.com/moneywithconfidence/clarity-session"
+            target="_blank"
+            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            >Let&rsquo;s get started</a
+          >
+        </div>
       </div>
     </div>
   </div>

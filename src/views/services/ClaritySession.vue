@@ -5,8 +5,7 @@ import Testimonials from "../../components/services/clarity-session/Testimonials
 import CrushingIt from "../../components/services/clarity-session/CrushingIt.vue";
 import Process from "../../components/services/clarity-session/Process.vue";
 import AdditionalFeatures from "../../components/services/clarity-session/AdditionalFeatures.vue";
-import VideoSection from "../../components/services/clarity-session/VideoSection.vue";
-import TidyCalBooking from "../../components/services/clarity-session/TidyCalBooking.vue";
+import Pricing from "../../components/services/clarity-session/Pricing.vue";
 </script>
 
 <template>
@@ -16,9 +15,8 @@ import TidyCalBooking from "../../components/services/clarity-session/TidyCalBoo
   <CrushingIt></CrushingIt>
   <Process></Process>
   <AdditionalFeatures></AdditionalFeatures>
-  <!-- <VideoSection></VideoSection> -->
   <hr />
-  <TidyCalBooking></TidyCalBooking>
+  <Pricing></Pricing>
 </template>
 
 <style scoped></style>
