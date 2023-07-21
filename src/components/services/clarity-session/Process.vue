@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-sky-50">
     <section
       aria-labelledby="features-heading"
-      class="mx-auto max-w-7xl py-32 sm:px-2 lg:px-8"
+      class="mx-auto max-w-7xl py-20 sm:px-2 lg:px-8"
     >
       <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
         <div class="max-w-3xl">
@@ -47,7 +47,7 @@
 
         <TabGroup as="div" class="mt-4">
           <div class="-mx-4 flex overflow-x-auto overflow-y-hidden sm:mx-0">
-            <div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
+            <div class="flex-auto border-b border-sky-200 px-4 sm:px-0">
               <TabList class="-mb-px flex space-x-10">
                 <Tab
                   as="template"
@@ -58,7 +58,7 @@
                   <button
                     :class="[
                       selected
-                        ? 'border-purple-500 text-purple-600'
+                        ? 'border-sky-500 text-sky-600'
                         : 'border-transparent text-gray-900 hover:border-gray-700 hover:text-gray-800',
                       'whitespace-nowrap border-b-2 py-6 text-sm font-medium',
                     ]"
@@ -85,13 +85,13 @@
                   <h3 class="text-lg font-medium text-gray-900">
                     {{ feature.name }}
                   </h3>
-                  <p class="mt-2 text-gray-500">
+                  <p class="mt-2 text-gray-900">
                     {{ feature.description }}
                   </p>
                 </div>
                 <div class="lg:col-span-7">
                   <div
-                    class="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5"
+                    class="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-sky-100 sm:aspect-h-2 sm:aspect-w-5"
                   >
                     <img
                       :src="feature.imageSrc"

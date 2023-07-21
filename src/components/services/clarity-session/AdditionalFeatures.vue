@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl mx-auto pb-20">
+  <div class="max-w-2xl mx-auto py-20">
     <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl pb-12">
       Here&rsquo;s a sneak peak of what else is included
     </h2>
@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-10 text-center">
+    <div class="mt-16 text-center">
       <a
         href="https://tidycal.com/moneywithconfidence/clarity-session"
         target="_blank"

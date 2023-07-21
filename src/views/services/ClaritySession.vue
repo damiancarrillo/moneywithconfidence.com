@@ -14,7 +14,6 @@ import TidyCalBooking from "../../components/services/clarity-session/TidyCalBoo
   <YouDeserveClarity></YouDeserveClarity>
   <Testimonials></Testimonials>
   <CrushingIt></CrushingIt>
-  <hr />
   <Process></Process>
   <AdditionalFeatures></AdditionalFeatures>
   <!-- <VideoSection></VideoSection> -->
