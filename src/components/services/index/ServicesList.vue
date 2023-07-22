@@ -1,24 +1,13 @@
 <template>
   <div class="bg-white py-20">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-4xl text-center">
-        <h2 class="text-base font-semibold leading-7 text-purple-500">
-          Services
-        </h2>
-        <p
-          class="mt-2 text-4xl font-bold font-header tracking-tight text-gray-900 sm:text-5xl"
-        >
-          Pricing plans for teams of&nbsp;all&nbsp;sizes
-        </p>
-      </div>
-      <p
-        class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600"
+      <h1
+        class="mt-2 text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl pb-10 text-center"
       >
-        Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi
-        iusto modi velit ut non voluptas in. Explicabo id ut laborum.
-      </p>
+        Choose from my available services
+      </h1>
       <div
-        class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        class="isolate mx-auto grid max-w-md grid-cols-1 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
       >
         <div
           v-for="(tier, tierIdx) in tiers"
@@ -51,14 +40,6 @@
             <p class="mt-4 text-sm leading-6 text-gray-600">
               {{ tier.description }}
             </p>
-            <p class="mt-6 flex items-baseline gap-x-1">
-              <span class="text-4xl font-bold tracking-tight text-gray-900">{{
-                tier.price
-              }}</span>
-              <span
-                class="text-sm font-semibold leading-6 text-gray-600"
-              ></span>
-            </p>
             <ul
               role="list"
               class="mt-8 space-y-3 text-sm leading-6 text-gray-600"
@@ -76,17 +57,20 @@
               </li>
             </ul>
           </div>
-          <a
-            :href="tier.href"
-            :aria-describedby="tier.id"
-            :class="[
-              tier.mostPopular
-                ? 'bg-purple-500 text-white shadow-sm hover:bg-purple-400'
-                : 'text-purple-500 ring-1 ring-inset ring-purple-200 hover:ring-purple-300',
-              'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500',
-            ]"
-            >Learn more</a
-          >
+          <div class="mt-8 text-center">
+            <a
+              :href="tier.href"
+              :aria-describedby="tier.id"
+              :class="[
+                tier.mostPopular
+                  ? 'bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40'
+                  : 'bg-purple-100 hover:bg-purple-200 focus-visible:outline-purple-200 text-purple-500 shadow-purple-100/50 hover:shadow-purple-400/20',
+                'mt-8 block rounded-full py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500',
+              ]"
+              class="block w-full shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+              >Learn more</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -98,16 +82,16 @@ import { CheckIcon } from "@heroicons/vue/20/solid";
 
 const tiers = [
   {
-    name: "Speaking and Workshops",
+    name: "Workshops and Speaking",
     id: "service-speaking-and-workshops",
     href: "/services/speaking-and-workshops",
-    price: "$24",
-    description: "The essentials to provide your best work for clients.",
+    description:
+      "Tailor-made, engaging, and interactive presentations perfect for small or large groups — nonprofits, for-profits, conferences, and more.",
     features: [
-      "5 products",
-      "Up to 1,000 subscribers",
-      "Basic analytics",
-      "48-hour support response time",
+      "Roadmap to Retirement across every decade",
+      "3 Keys to Building Long-Lasting Wealth",
+      "How to Be Better than Average with Money",
+      "Financial Success for HS & College Students",
     ],
     mostPopular: false,
   },
@@ -115,12 +99,14 @@ const tiers = [
     name: "Clarity Session",
     id: "service-clarity-session",
     href: "/services/clarity-session",
-    price: "$32",
-    description: "A plan that scales with your rapidly growing business.",
+    description:
+      "One-on-one education and coaching that provides you with specific guidance based on your personal situation.",
     features: [
-      "Identify your top three goals",
-      "Review your spending for the past three months and determine alignment with your goals",
-      "Create an initial action plan to achieve your top three goals",
+      "Explore your money mindset",
+      "Identify your values, goals, and priorities",
+      "Examine your money snapshot",
+      "Create your intentional money plan",
+      "Money tracking software",
     ],
     mostPopular: true,
   },
@@ -128,14 +114,14 @@ const tiers = [
     name: "Money and Mocktails",
     id: "service-money-and-mocktails",
     href: "/services/money-and-mocktails",
-    price: "$48",
-    description: "Dedicated support and infrastructure for your company.",
+    description:
+      "A casual, yet intimate and fun, money hangout that promotes growth through conversation.",
     features: [
-      "Unlimited products",
-      "Unlimited subscribers",
-      "Advanced analytics",
-      "1-hour, dedicated support response time",
-      "Marketing automations",
+      "You bring your friend group",
+      "I bring the mocktails",
+      "Guided conversations in a safe space",
+      "Good for collective self-improvement",
+      "You will realize money conversations are fun",
     ],
     mostPopular: false,
   },
