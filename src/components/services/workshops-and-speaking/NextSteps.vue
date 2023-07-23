@@ -125,7 +125,7 @@ const activity = [
     person: { name: "Natasha Carrillo" },
     imageUrl: "/natasha-headshot.webp",
     comment:
-      "I complete the materials so that I can lead our workshop or event",
+      "I complete the materials so that I can lead your workshop or event",
   },
   {
     id: 6,

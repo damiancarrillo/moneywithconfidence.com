@@ -14,21 +14,6 @@
           Intimate money conversations with your peers to inspire growth and
           connection
         </p>
-        <span
-          class="mt-4 inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10"
-          >More info coming soon</span
-        >
-      </div>
-    </div>
-    <div class="relative pt-6">
-      <div class="mx-auto max-w-3xl px-6 lg:px-8">
-        <img
-          src="/natasha-services-money-and-mocktails.webp"
-          alt="Natasha posing near colorful"
-          class="rounded-xl shadow-xl"
-          width="1200"
-          height="800"
-        />
       </div>
     </div>
   </div>
