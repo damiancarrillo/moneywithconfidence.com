@@ -93,7 +93,7 @@
 import { CheckIcon } from "@heroicons/vue/20/solid";
 
 const includedFeatures = [
-  "Two coaching calls",
+  "2 video coaching calls",
   "Money tracking software",
   "Email and text support",
   "Accountability follow-ups",

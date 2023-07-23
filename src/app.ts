@@ -10,7 +10,7 @@ import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
 
 import ServicesClaritySession from "./views/services/ClaritySession.vue";
-import ServicesSpeakingAndWorkshops from "./views/services/SpeakingAndWorkshops.vue";
+import ServicesWorkshopsAndSpeaking from "./views/services/WorkshopsAndSpeaking.vue";
 import ServicesMoneyAndMocktails from "./views/services/MoneyAndMocktails.vue";
 
 import Terms from "./views/Terms.vue";
@@ -29,8 +29,8 @@ const navigationRoutes = [
 const servicesRoutes = [
   { path: "/services/clarity-session", component: ServicesClaritySession },
   {
-    path: "/services/speaking-and-workshops",
-    component: ServicesSpeakingAndWorkshops,
+    path: "/services/workshops-and-speaking",
+    component: ServicesWorkshopsAndSpeaking,
   },
   {
     path: "/services/money-and-mocktails",

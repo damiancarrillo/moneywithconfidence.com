@@ -18,5 +18,3 @@ import Pricing from "../../components/services/clarity-session/Pricing.vue";
   <hr />
   <Pricing></Pricing>
 </template>
-
-<style scoped></style>

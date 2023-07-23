@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white sm:pt-24 pb-16 mx-auto max-w-6xl text-base">
+  <div class="bg-white py-12 md:pt-20 mx-auto max-w-6xl text-base">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl sm:text-center">
         <h2 class="text-base font-semibold leading-7 text-purple-500">
