@@ -8,6 +8,7 @@ import Home from "./views/Home.vue";
 import Services from "./views/services/Index.vue";
 import Contact from "./views/Contact.vue";
 import About from "./views/About.vue";
+import NotFound from "./views/NotFound.vue";
 
 import ServicesClaritySession from "./views/services/ClaritySession.vue";
 import ServicesWorkshopsAndSpeaking from "./views/services/WorkshopsAndSpeaking.vue";
@@ -44,12 +45,20 @@ const footerRoutes = [
   { path: "/disclaimer", component: Disclaimer },
 ];
 
+const additionalRoutes = [
+  // will match everything and put it under `$route.params.pathMatch`
+  { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound },
+];
+
 const router = VueRouter.createRouter({
   scrollBehavior(to, from, savedPosition) {
     return { top: 0 }; // always scroll to top
   },
   history: VueRouter.createWebHistory(),
-  routes: navigationRoutes.concat(servicesRoutes).concat(footerRoutes),
+  routes: navigationRoutes
+    .concat(servicesRoutes)
+    .concat(footerRoutes)
+    .concat(additionalRoutes),
 });
 
 app.use(router);

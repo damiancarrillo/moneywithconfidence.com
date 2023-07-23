@@ -34,6 +34,8 @@
             class="aspect-square object-top object-cover rounded-xl shadow-xl"
             src="/natasha-services.webp"
             alt="Natasha smiling while standing in front of an interesting wall"
+            width="648"
+            height="432"
           />
         </div>
       </div>

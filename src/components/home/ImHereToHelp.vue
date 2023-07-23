@@ -9,6 +9,8 @@
         class="h-full w-full object-cover"
         src="/natasha-instructing.webp"
         alt="Natasha instructing a client"
+        width="780"
+        height="635"
       />
       <svg
         viewBox="0 0 926 676"
