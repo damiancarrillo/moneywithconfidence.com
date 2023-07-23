@@ -92,7 +92,7 @@ const activity = [
     id: 1,
     type: "meeting",
     person: { name: "Everyone" },
-    imageUrl: null,
+    imageUrl: undefined,
     comment:
       "We connect on a video call or in-person meeting to discuss your needs",
   },
@@ -131,7 +131,7 @@ const activity = [
     id: 6,
     type: "meeting",
     person: { name: "Everyone" },
-    imageUrl: null,
+    imageUrl: undefined,
     comment: "We elevate the financial well-being of your team",
   },
 ];
