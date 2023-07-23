@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-10 pb-20">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-20">
     <div class="mx-auto max-w-2xl text-gray-900">
-      <p class="mt-10 text-lg leading-8 font-semibold">Did you know that:</p>
+      <p class="text-lg leading-8 font-semibold">Did you know that:</p>
       <ul class="list-disc list-outside ml-5">
         <li>
           43% of Americans don&rsquo;t have $1k saved for an emergency?
