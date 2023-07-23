@@ -82,16 +82,17 @@ import { CheckIcon } from "@heroicons/vue/20/solid";
 
 const tiers = [
   {
-    name: "Workshops and Speaking",
-    id: "service-speaking-and-workshops",
-    href: "/services/speaking-and-workshops",
+    name: "Money and Mocktails",
+    id: "service-money-and-mocktails",
+    href: "/services/money-and-mocktails",
     description:
-      "Tailor-made, engaging, and interactive presentations perfect for small or large groups — nonprofits, for-profits, conferences, and more.",
+      "A casual, yet intimate and fun, money hangout that promotes growth through conversation.",
     features: [
-      "Roadmap to Retirement across every decade",
-      "3 Keys to Building Long-Lasting Wealth",
-      "How to Be Better than Average with Money",
-      "Financial Success for HS & College Students",
+      "You bring your friend group",
+      "I bring the mocktails",
+      "Guided conversations in a safe space",
+      "Good for collective self-improvement",
+      "You will realize money conversations are fun",
     ],
     mostPopular: false,
   },
@@ -111,17 +112,16 @@ const tiers = [
     mostPopular: true,
   },
   {
-    name: "Money and Mocktails",
-    id: "service-money-and-mocktails",
-    href: "/services/money-and-mocktails",
+    name: "Workshops and Speaking",
+    id: "service-workshops-and-speaking",
+    href: "/services/workshops-and-speaking",
     description:
-      "A casual, yet intimate and fun, money hangout that promotes growth through conversation.",
+      "Tailor-made, engaging, and interactive presentations perfect for small or large groups — nonprofits, for-profits, conferences, and more.",
     features: [
-      "You bring your friend group",
-      "I bring the mocktails",
-      "Guided conversations in a safe space",
-      "Good for collective self-improvement",
-      "You will realize money conversations are fun",
+      "Roadmap to Retirement across every decade",
+      "3 Keys to Building Long-Lasting Wealth",
+      "How to Be Better than Average with Money",
+      "Financial Success for HS & College Students",
     ],
     mostPopular: false,
   },
