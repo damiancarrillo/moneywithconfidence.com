@@ -67,9 +67,9 @@ function fullPathMatchesItemHref(fullPath: string, itemHref: string): Boolean {
           as="a"
           :href="item.href"
           :class="[
-            $route.fullPath === item.href
-              ? 'bg-gray-100 text-gray-900'
-              : 'text-gray-900 hover:bg-gray-50 hover:text-gray-900',
+            fullPathMatchesItemHref($route.fullPath, item.href)
+              ? 'bg-orange-100 text-orange-700'
+              : 'text-purple-700 hover:bg-gray-50 hover:text-gray-900',
             'block rounded-md py-2 px-3 text-base font-medium',
             'm-3',
           ]"
