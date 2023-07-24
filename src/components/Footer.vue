@@ -3,6 +3,7 @@ import { defineComponent, h } from "vue";
 
 const navigation = {
   main: [
+    { name: "Credits", href: "/credits" },
     { name: "Terms and Conditions", href: "/terms" },
     { name: "Privacy Policy", href: "/privacy" },
     { name: "Disclaimer", href: "/disclaimer" },

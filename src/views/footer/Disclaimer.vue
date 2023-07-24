@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LegalContainer from "../components/LegalContainer.vue";
+import LegalContainer from "../../components/LegalContainer.vue";
 </script>
 
 <template>
@@ -135,4 +135,14 @@ import LegalContainer from "../components/LegalContainer.vue";
   </legalContainer>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-header;
+  @apply pt-6;
+}
+</style>

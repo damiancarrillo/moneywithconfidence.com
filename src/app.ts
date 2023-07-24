@@ -14,9 +14,10 @@ import ServicesClaritySession from "./views/services/ClaritySession.vue";
 import ServicesWorkshopsAndSpeaking from "./views/services/WorkshopsAndSpeaking.vue";
 import ServicesMoneyAndMocktails from "./views/services/MoneyAndMocktails.vue";
 
-import Terms from "./views/Terms.vue";
-import Privacy from "./views/Privacy.vue";
-import Disclaimer from "./views/Disclaimer.vue";
+import Credits from "./views/footer/Credits.vue";
+import Terms from "./views/footer/Terms.vue";
+import Privacy from "./views/footer/Privacy.vue";
+import Disclaimer from "./views/footer/Disclaimer.vue";
 
 const app = Vue.createApp(App);
 
@@ -40,6 +41,7 @@ const servicesRoutes = [
 ];
 
 const footerRoutes = [
+  { path: "/credits", component: Credits },
   { path: "/terms", component: Terms },
   { path: "/privacy", component: Privacy },
   { path: "/disclaimer", component: Disclaimer },
