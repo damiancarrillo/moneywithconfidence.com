@@ -20,7 +20,7 @@
             without any icky guilt or shameful feelings?
           </p>
           <p class="mt-6 mb-2">
-            That&rsquo;s what Money and Mocktails is all about.
+            That&rsquo;s what Money and Mingle is all about.
           </p>
           <ul class="list-disc list-outside px-5">
             <li>Inspirational conversations</li>
@@ -36,7 +36,7 @@
         </div>
         <div class="mt-16">
           <a
-            href="https://tidycal.com/moneywithconfidence/money-and-mocktails"
+            href="https://tidycal.com/moneywithconfidence/money-and-mingle"
             target="_blank"
             class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
             >Let&rsquo;s get started</a

@@ -70,12 +70,12 @@ const features = [
           </div>
         </div>
         <div
-          class="overflow-hidden sm:mx-0 sm:max-w-2xl sm:rounded-3xl p-0 m-0"
+          class="overflow-hidden sm:mx-0 sm:max-w-2xl sm:rounded-3xl p-0 m-0 shadow-lg"
         >
           <img
             src="/natasha-you-got-this.webp"
             alt="Natasha letting you know that you got this"
-            class="-mb-12 ring-1 ring-white/10 shadow-2xl"
+            class="-mb-12 ring-1 ring-white/10"
           />
         </div>
       </div>
