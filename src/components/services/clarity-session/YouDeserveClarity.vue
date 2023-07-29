@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white">
     <div class="">
-      <div class="mx-auto max-w-2xl pb-10 px-6">
-        <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl">
+      <div class="max-w-2xl px-6 pb-10 mx-auto">
+        <h2 class="text-3xl text-gray-900 font-bol font-header sm:text-4xl">
           You deserve clarity
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-900">
@@ -11,7 +11,7 @@
         </p>
       </div>
       <Archetypes></Archetypes>
-      <div class="mx-auto max-w-2xl mt-16 mb-20 px-6">
+      <div class="max-w-2xl px-6 mx-auto mt-16 mb-20">
         <p class="mt-6 text-lg leading-8 text-gray-900">
           But now you&rsquo;re ready to let go of fear, doubt, and uncertainty
           and make a clear plan for your money. That&rsquo;s where I come in.
@@ -27,11 +27,11 @@
           money with confidence. Let&rsquo;s get started!
         </p>
         <Signature></Signature>
-        <div class="mt-14 text-center">
+        <div class="text-center mt-14">
           <a
             href="https://tidycal.com/moneywithconfidence/clarity-session"
             target="_blank"
-            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
             >Let&rsquo;s get started</a
           >
         </div>

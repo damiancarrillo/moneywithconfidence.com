@@ -1,13 +1,13 @@
 <template>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-20">
-    <div class="mx-auto max-w-2xl text-gray-900">
-      <p class="text-lg leading-8 font-semibold">Did you know that:</p>
-      <ul class="list-disc list-outside ml-5">
+  <div class="px-6 pb-20 mx-auto max-w-7xl lg:px-8">
+    <div class="max-w-2xl mx-auto text-gray-900">
+      <p class="text-lg font-semibold leading-8">Did you know that:</p>
+      <ul class="ml-5 list-disc list-outside">
         <li>
           43% of Americans don&rsquo;t have $1k saved for an emergency?
           <sup
             ><a
-              class="underline text-purple-800 hover:text-purple-400"
+              class="text-purple-800 underline hover:text-purple-400"
               href="#sources"
               >1</a
             ></sup
@@ -17,7 +17,7 @@
           65% of Americans are significantly stressed about money?
           <sup
             ><a
-              class="underline text-purple-800 hover:text-purple-400"
+              class="text-purple-800 underline hover:text-purple-400"
               href="#sources"
               >2</a
             ></sup
@@ -31,8 +31,8 @@
       </p>
     </div>
 
-    <div class="mx-auto max-w-2xl text-gray-900">
-      <p class="mt-10 text-lg leading-8 font-semibold">
+    <div class="max-w-2xl mx-auto text-gray-900">
+      <p class="mt-10 text-lg font-semibold leading-8">
         Here&rsquo;s what the research says&hellip;
       </p>
       <p class="mt-6 text-lg leading-8">
@@ -44,7 +44,7 @@
         <em> (Lusardi and Mitchell 2007a, b, 2011a, 2011b) </em>
         <sup
           ><a
-            class="underline text-purple-800 hover:text-purple-400"
+            class="text-purple-800 underline hover:text-purple-400"
             href="#sources"
             >3</a
           ></sup
@@ -56,7 +56,7 @@
       <a
         href="https://tidycal.com/moneywithconfidence/workshop-or-speaking-planning"
         target="_blank"
-        class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+        class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
         >Let&rsquo;s start planning</a
       >
     </div>

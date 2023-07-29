@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-3xl">
+  <div class="max-w-3xl mx-auto">
     <iframe
-      class="rounded-2xl shadow-lg"
+      class="shadow-lg rounded-2xl"
       width="840"
       height="472"
       src="https://www.youtube-nocookie.com/embed/fk94BWpywCk"

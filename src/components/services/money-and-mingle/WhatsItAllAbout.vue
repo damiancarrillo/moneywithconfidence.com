@@ -1,9 +1,20 @@
 <template>
-  <div class="relative overflow-hidden bg-white pt-10">
-    <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-      <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-        <div class="sm:max-w-lg text-gray-900">
-          <h2 class="text-3xl font-bold font-header tracking-tight sm:text-4xl">
+  <div class="relative pt-10 overflow-hidden bg-white">
+    <div class="pt-16 pb-16 xl:pb-48 xl:pt-40">
+      <div class="relative px-6 mx-auto max-w-7xl sm:static sm:px-6 lg:px-8">
+        <div class="relative xl:hidden pb-16">
+          <div class="max-w-3xl mx-auto lg:px-8">
+            <img
+              src="/natasha-services-money-with-confidence-8.webp"
+              alt="Natasha sitting down on a green couch while smiling"
+              class="shadow-xl rounded-xl"
+              width="1200"
+              height="800"
+            />
+          </div>
+        </div>
+        <div class="text-gray-900 sm:max-w-2xl xl:max-w-lg mx-auto xl:mx-0">
+          <h2 class="text-3xl font-bold tracking-tight font-header sm:text-4xl">
             What&rsquo;s it all about?
           </h2>
           <p class="mt-6 text-lg">
@@ -22,7 +33,7 @@
           <p class="mt-6 mb-2">
             That&rsquo;s what Money and Mingle is all about.
           </p>
-          <ul class="list-disc list-outside px-5">
+          <ul class="px-5 list-disc list-outside">
             <li>Inspirational conversations</li>
             <li>Transformational ideas</li>
             <li>Powerful connections</li>
@@ -34,11 +45,11 @@
             >.
           </p>
         </div>
-        <div class="mt-16">
+        <div class="mt-16 mx-auto xl:mx-0 text-center xl:text-left">
           <a
             href="https://tidycal.com/moneywithconfidence/money-and-mingle"
             target="_blank"
-            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
             >Let&rsquo;s get started</a
           >
         </div>
@@ -47,7 +58,7 @@
             <!-- Decorative image grid -->
             <div
               aria-hidden="true"
-              class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+              class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl hidden xl:contents"
             >
               <div
                 class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8"
@@ -56,63 +67,61 @@
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div
-                      class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100"
-                    >
+                    <div class="h-64 w-44 sm:opacity-0 lg:opacity-100">
                       <img
                         src="/natasha-services-money-with-confidence-1.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-2.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-4.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-3.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-7.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-5.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-6.webp"
                         alt=""
-                        class="h-full w-full object-cover object-center"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>

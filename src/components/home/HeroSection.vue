@@ -1,18 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="mx-auto max-w-7xl lg:flex lg:px-8">
+  <div class="mx-auto max-w-7xl lg:flex">
     <div
       id="hero-container"
-      class="container bg-white relative sm:mt-0 lg:mt-8 max-w-6xl lg:grid lg:grid-cols-12 lg:gap-x-8 px-6"
+      class="container relative max-w-6xl px-6 bg-white sm:mt-0 lg:mt-8 lg:grid lg:grid-cols-12 lg:gap-x-8"
     >
       <div class="lg:col-span-1"></div>
       <div
         id="hero-blurb"
-        class="pt-0 pb-8 md:pt-8 lg:pb-16 lg:pt-10 md:col-span-6 max-w-2xl mx-auto"
+        class="max-w-2xl pt-0 pb-8 mx-auto md:pt-8 lg:pb-16 lg:pt-10 md:col-span-6"
       >
         <h1
-          class="text-5xl xl:text-6xl font-bold font-header tracking-tight text-gray-900 pt-6 lg:pt-8 xl:pt-10 2xl:pt-2"
+          class="pt-6 text-5xl font-bold tracking-tight text-gray-900 xl:text-6xl font-header lg:pt-8 xl:pt-10 2xl:pt-2"
         >
           Make a money plan you&rsquo;ll
           <span class="uppercase highlighted">love</span>
@@ -21,15 +21,15 @@
           Coaching, conversations, and workshops to make you confident with your
           money decisions…because managing money shouldn&rsquo;t be that hard.
         </p>
-        <div class="mt-10 flex items-center gap-x-6 mx-0">
+        <div class="flex items-center mx-0 mt-10 gap-x-6">
           <a
             href="/services"
-            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-lg shadow-purple-400/60 hover:shadow-purple-700/40 rounded-full px-7 py-3 text-xl font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            class="py-3 text-xl font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40 px-7 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >Start Here</a
           >
         </div>
       </div>
-      <div id="hero-image" class="lg:col-span-5 flex flex-col pt-0">
+      <div id="hero-image" class="flex flex-col pt-0 lg:col-span-5">
         <div class="flex-grow"></div>
         <img
           class="z-50"

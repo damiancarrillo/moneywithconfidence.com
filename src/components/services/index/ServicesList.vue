@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-white py-20">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="py-20 bg-white">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
       <h1
-        class="mt-2 text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl pb-10 text-center"
+        class="pb-10 mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 font-header sm:text-4xl"
       >
         Choose from my available services
       </h1>
       <div
-        class="isolate mx-auto grid max-w-md grid-cols-1 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        class="grid max-w-md grid-cols-1 mx-auto isolate gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3"
       >
         <div
           v-for="(tier, tierIdx) in tiers"
@@ -50,7 +50,7 @@
                 class="flex gap-x-3"
               >
                 <CheckIcon
-                  class="h-6 w-5 flex-none text-purple-500"
+                  class="flex-none w-5 h-6 text-purple-500"
                   aria-hidden="true"
                 />
                 {{ feature }}
@@ -67,7 +67,7 @@
                   : 'bg-purple-100 hover:bg-purple-200 focus-visible:outline-purple-200 text-purple-500 shadow-purple-100/50 hover:shadow-purple-400/20',
                 'mt-8 block rounded-full py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500',
               ]"
-              class="block w-full shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+              class="block w-full px-5 py-3 text-base font-semibold rounded-full shadow-lg"
               >Learn more</a
             >
           </div>

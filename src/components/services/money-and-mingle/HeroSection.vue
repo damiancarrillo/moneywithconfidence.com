@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-white py-12 md:pt-20 mx-auto max-w-6xl text-base">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl sm:text-center">
+  <div class="max-w-6xl py-12 mx-auto text-base bg-white md:pt-20">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+      <div class="max-w-2xl mx-auto sm:text-center">
         <h2 class="text-base font-semibold leading-7 text-purple-500">
           A safe space to talk money
         </h2>
         <p
-          class="mt-4 text-5xl font-bold font-header tracking-tight text-gray-900"
+          class="mt-4 text-5xl font-bold tracking-tight text-gray-900 font-header"
         >
           Money and Mingle
         </p>

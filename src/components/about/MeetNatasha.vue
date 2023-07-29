@@ -1,17 +1,17 @@
 <template>
-  <div class="bg-white px-6 py-12 pb-16 lg:px-8 md:pt-20">
-    <div class="mx-auto max-w-4xl text-base leading-7 text-gray-900">
+  <div class="px-6 py-12 pb-16 bg-white lg:px-8 md:pt-20">
+    <div class="max-w-4xl mx-auto text-base leading-7 text-gray-900">
       <p class="text-base font-semibold leading-7 text-purple-600">
         I'm here for you
       </p>
       <h1
-        class="mt-2 text-5xl font-bold font-header tracking-tight text-gray-900 sm:text-5xl"
+        class="mt-2 text-5xl font-bold tracking-tight text-gray-900 font-header sm:text-5xl"
       >
         Meet Natasha, your new financial coach
       </h1>
       <figure class="mt-10">
         <img
-          class="aspect-square lg:aspect-video rounded-xl bg-gray-50 object-cover shadow-xl"
+          class="object-cover shadow-xl aspect-square lg:aspect-video rounded-xl bg-gray-50"
           src="/natasha-about-yellow.webp"
           width="1728"
           height="1152"
@@ -37,7 +37,7 @@
           help others do the same, and I&rsquo;m here to help you. My husband
           and I share our money story and the stories of others on our podcast
           <a
-            class="underline text-purple-800 hover:text-purple-400"
+            class="text-purple-800 underline hover:text-purple-400"
             href="https://blackandbrownmakegreen.com"
             >Black and Brown Make Green</a
           >. It&rsquo;s our way to help you DIY your financial growth, but if

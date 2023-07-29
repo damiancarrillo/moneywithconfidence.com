@@ -29,15 +29,15 @@ const features = [
 <style scoped></style>
 
 <template>
-  <div class="overflow-hidden pb-8 bg-white">
+  <div class="pb-8 overflow-hidden bg-white">
     <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
       <div
         class="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start"
       >
         <div class="px-6 lg:px-0 lg:pr-4 lg:pt-4">
-          <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
+          <div class="max-w-2xl mx-auto lg:mx-0 lg:max-w-lg">
             <p
-              class="mt-2 text-4xl font-header font-bold tracking-tight text-black sm:text-4xl"
+              class="mt-2 text-4xl font-bold tracking-tight text-black font-header sm:text-4xl"
             >
               You got this!
             </p>
@@ -47,7 +47,7 @@ const features = [
               <span class="highlighted">you will</span>...
             </p>
             <dl
-              class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
+              class="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
             >
               <div
                 v-for="feature in features"
@@ -58,7 +58,7 @@ const features = [
                   <component
                     :is="feature.icon"
                     :class="feature.colorClass"
-                    class="absolute left-1 top-1 h-5 w-5"
+                    class="absolute w-5 h-5 left-1 top-1"
                     aria-hidden="true"
                   />
                   {{ feature.name }}
@@ -69,14 +69,16 @@ const features = [
             </dl>
           </div>
         </div>
-        <div
-          class="overflow-hidden sm:mx-0 sm:max-w-2xl sm:rounded-3xl p-0 m-0 shadow-lg"
-        >
-          <img
-            src="/natasha-you-got-this.webp"
-            alt="Natasha letting you know that you got this"
-            class="-mb-12 ring-1 ring-white/10"
-          />
+        <div class="px-8">
+          <div
+            class="p-0 m-0 overflow-hidden shadow-lg sm:mx-0 sm:max-w-2xl rounded-2xl sm:rounded-3xl"
+          >
+            <img
+              src="/natasha-you-got-this.webp"
+              alt="Natasha letting you know that you got this"
+              class="-mb-12 ring-1 ring-white/10"
+            />
+          </div>
         </div>
       </div>
     </div>

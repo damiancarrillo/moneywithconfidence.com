@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white py-20 sm:py-24">
+  <div class="py-20 bg-white sm:py-24">
     <div
-      class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3"
+      class="grid px-6 mx-auto max-w-7xl gap-x-8 gap-y-20 lg:px-8 xl:grid-cols-3"
     >
       <div class="max-w-2xl">
         <h2
-          class="text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
+          class="text-3xl font-bold tracking-tight text-gray-900 font-header sm:text-4xl"
         >
           Credits
         </h2>
@@ -25,7 +25,7 @@
         >
           <div class="flex items-center gap-x-6 group">
             <img
-              class="h-16 w-16 rounded-full group-hover:shadow-lg"
+              class="w-16 h-16 rounded-full group-hover:shadow-lg"
               :src="person.imageUrl"
               width="72"
               height="72"
@@ -50,13 +50,13 @@
     </div>
   </div>
   <hr />
-  <div class="bg-white py-20 sm:py-24">
+  <div class="py-20 bg-white sm:py-24">
     <div
-      class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3"
+      class="grid px-6 mx-auto max-w-7xl gap-x-8 gap-y-20 lg:px-8 xl:grid-cols-3"
     >
       <div class="max-w-2xl">
         <h2
-          class="text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
+          class="text-3xl font-bold tracking-tight text-gray-900 font-header sm:text-4xl"
         >
           Stock Photography
         </h2>
@@ -76,7 +76,7 @@
         >
           <div class="flex items-center gap-x-6 group">
             <img
-              class="h-16 w-16 rounded-full group-hover:shadow-lg"
+              class="w-16 h-16 rounded-full group-hover:shadow-lg"
               :src="person.imageUrl"
               width="72"
               height="72"

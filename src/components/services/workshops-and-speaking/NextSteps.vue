@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-7xl mt-20 px-6">
+  <div class="px-6 mx-auto mt-20 max-w-7xl">
     <div class="text-center">
-      <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl">
+      <h2 class="text-3xl text-gray-900 font-bol font-header sm:text-4xl">
         What are the next steps?
       </h2>
     </div>
@@ -26,10 +26,10 @@
                 <div>
                   <div class="relative px-1">
                     <div
-                      class="flex h-8 w-8 items-center justify-center rounded-full bg-purple-100 ring-8 ring-white"
+                      class="flex items-center justify-center w-8 h-8 bg-purple-100 rounded-full ring-8 ring-white"
                     >
                       <UsersIcon
-                        class="h-5 w-5 text-purple-500"
+                        class="w-5 h-5 text-purple-500"
                         aria-hidden="true"
                       />
                     </div>
@@ -44,12 +44,12 @@
               <template v-else-if="activityItem.type === 'task'">
                 <div class="relative">
                   <img
-                    class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white"
+                    class="flex items-center justify-center w-10 h-10 bg-gray-400 rounded-full ring-8 ring-white"
                     :src="activityItem.imageUrl"
                     alt="A head shot of Natasha"
                   />
                 </div>
-                <div class="min-w-0 flex-1">
+                <div class="flex-1 min-w-0">
                   <div>
                     <div class="text-sm font-medium text-gray-900">
                       {{ activityItem.person.name }}
@@ -57,7 +57,7 @@
                     <div
                       class="mt-0.5 text-sm text-gray-500 gap-1 flex flex-row items-center"
                     >
-                      <CheckIcon class="h-4 w-4 text-emerald-600" />
+                      <CheckIcon class="w-4 h-4 text-emerald-600" />
                       <p>Task</p>
                     </div>
                   </div>
@@ -72,11 +72,11 @@
       </ul>
     </div>
 
-    <div class="mt-14 text-center">
+    <div class="text-center mt-14">
       <a
         href="https://tidycal.com/moneywithconfidence/workshop-or-speaking-planning"
         target="_blank"
-        class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+        class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
         >Let&rsquo;s do this!</a
       >
     </div>

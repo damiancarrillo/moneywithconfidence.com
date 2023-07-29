@@ -19,11 +19,11 @@ function fullPathMatchesItemHref(fullPath: string, itemHref: string): Boolean {
 </script>
 
 <template>
-  <Disclosure as="nav" class="bg-white z-50" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="flex h-16 justify-between">
+  <Disclosure as="nav" class="z-50 bg-white" v-slot="{ open }">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
         <div class="flex">
-          <div class="flex flex-shrink-0 items-center">
+          <div class="flex items-center flex-shrink-0">
             <a href="/" title="Home"
               ><Logo bottom-fill="fill-yellow-400" top-fill="fill-black"></Logo
             ></a>
@@ -46,21 +46,21 @@ function fullPathMatchesItemHref(fullPath: string, itemHref: string): Boolean {
             >{{ item.name }}</router-link
           >
         </div>
-        <div class="-mr-2 flex items-center sm:hidden">
+        <div class="flex items-center -mr-2 sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton
-            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
           >
             <span class="sr-only">Open main menu</span>
-            <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+            <Bars3Icon v-if="!open" class="block w-6 h-6" aria-hidden="true" />
+            <XMarkIcon v-else class="block w-6 h-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
       </div>
     </div>
 
     <DisclosurePanel class="sm:hidden">
-      <div class="space-y-1 pb-3 pt-2">
+      <div class="pt-2 pb-3 space-y-1">
         <a
           v-for="item in navigation"
           :key="item.name"
