@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="mx-auto max-w-7xl lg:flex lg:px-8">
+  <div class="mx-auto max-w-7xl lg:flex ">
     <div
       id="hero-container"
       class="container bg-white relative sm:mt-0 lg:mt-8 max-w-6xl lg:grid lg:grid-cols-12 lg:gap-x-8 px-6"

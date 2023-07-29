@@ -70,7 +70,7 @@ const tiers = [
   {
     name: "Facilitated Conversations",
     id: "offering-facilitated-conversations",
-    href: "/services",
+    href: "/services/money-and-mingle",
     description: "A guided discussion session for you and your friends.",
     features: [
       "Good for a group of friends",
@@ -81,7 +81,7 @@ const tiers = [
   {
     name: "One-on-one Coaching",
     id: "offering-one-on-one-coaching",
-    href: "/services",
+    href: "/services/clarity-session",
     description: "Personalized guidance for you and your spouse.",
     features: [
       "Get a financial check-up and assessment",
@@ -95,7 +95,7 @@ const tiers = [
   {
     name: "Workshops & Speaking",
     id: "offering-workshops-and-speaking",
-    href: "/services",
+    href: "/services/workshops-and-speaking",
     description:
       "Relieve your team from financial stress with one of my presentations.",
     features: [

@@ -47,7 +47,7 @@
       <div class="py-10 mb-10 mx-auto text-center">
         <a
           href="/services"
-          class="bg-cyan-600 hover:bg-cyan-700 focus-visible:outline-cyan-700 text-white shadow-cyan-400/30 hover:shadow-cyan-700/40 shadow-lg rounded-full px-6 py-3 text-base font-semibold"
+          class="bg-emerald-600 hover:bg-emerald-700 focus-visible:outline-emerald-700 text-white shadow-emerald-400/30 hover:shadow-emerald-700/40 shadow-lg rounded-full px-6 py-3 text-base font-semibold"
           >I'm ready</a
         >
       </div>

@@ -69,14 +69,16 @@ const features = [
             </dl>
           </div>
         </div>
-        <div
-          class="overflow-hidden sm:mx-0 sm:max-w-2xl sm:rounded-3xl p-0 m-0 shadow-lg"
-        >
-          <img
-            src="/natasha-you-got-this.webp"
-            alt="Natasha letting you know that you got this"
-            class="-mb-12 ring-1 ring-white/10"
-          />
+        <div class="px-8">
+          <div
+            class="overflow-hidden sm:mx-0 sm:max-w-2xl rounded-2xl sm:rounded-3xl p-0 m-0 shadow-lg"
+          >
+            <img
+              src="/natasha-you-got-this.webp"
+              alt="Natasha letting you know that you got this"
+              class="-mb-12 ring-1 ring-white/10"
+            />
+          </div>
         </div>
       </div>
     </div>
