@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-4xl sm:text-center">
+  <div class="py-24 bg-white sm:py-32">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+      <div class="max-w-4xl mx-auto sm:text-center">
         <p
           class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl font-header"
         >
@@ -9,14 +9,14 @@
         </p>
       </div>
       <p
-        class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-900 sm:text-center"
+        class="max-w-2xl mx-auto mt-6 text-lg leading-8 text-gray-900 sm:text-center"
       >
         Let&rsquo;s rewrite your money story together and put you on the path to
         a lifetime of financial well-being.
       </p>
-      <div class="mt-20 flow-root">
+      <div class="flow-root mt-20">
         <div
-          class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4"
+          class="grid max-w-sm grid-cols-1 -mt-16 divide-y divide-gray-100 isolate gap-y-16 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4"
         >
           <div
             v-for="tier in tiers"
@@ -33,7 +33,7 @@
               <a
                 :href="tier.href"
                 :aria-describedby="tier.id"
-                class="bg-sky-500 hover:bg-sky-400 focus-visible:outline-sky-600 text-white shadow-sky-500/20 hover:shadow-sky-400/20 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+                class="px-5 py-3 text-base font-semibold text-white rounded-full shadow-lg bg-sky-500 hover:bg-sky-400 focus-visible:outline-sky-600 shadow-sky-500/20 hover:shadow-sky-400/20"
                 >Learn more about this</a
               >
             </div>
@@ -50,7 +50,7 @@
                 class="flex gap-x-3"
               >
                 <CheckCircleIcon
-                  class="h-6 w-5 flex-none text-emerald-500"
+                  class="flex-none w-5 h-6 text-emerald-500"
                   aria-hidden="true"
                 />
                 {{ feature }}

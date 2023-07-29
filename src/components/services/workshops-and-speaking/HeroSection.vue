@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-white py-12 md:pt-20 mx-auto max-w-6xl text-base">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl sm:text-center">
+  <div class="max-w-6xl py-12 mx-auto text-base bg-white md:pt-20">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+      <div class="max-w-2xl mx-auto sm:text-center">
         <h2 class="text-base font-semibold leading-7 text-purple-500">
           Making money accessible and fun for small and large audiences
         </h2>
         <p
-          class="mt-4 text-5xl font-bold font-header tracking-tight text-gray-900"
+          class="mt-4 text-5xl font-bold tracking-tight text-gray-900 font-header"
         >
           Workshops and Speaking
         </p>
@@ -18,18 +18,18 @@
           <a
             href="https://tidycal.com/moneywithconfidence/workshop-or-speaking-planning"
             target="_blank"
-            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
             >Let&rsquo;s plan an event</a
           >
         </div>
       </div>
     </div>
     <div class="relative pt-16">
-      <div class="mx-auto max-w-3xl px-6 lg:px-8">
+      <div class="max-w-3xl px-6 mx-auto lg:px-8">
         <img
           src="/natasha-services-workshops-and-speaking.webp"
           alt="Natasha posing with her chin resting on her hand"
-          class="rounded-xl shadow-xl"
+          class="shadow-xl rounded-xl"
           width="1200"
           height="800"
         />

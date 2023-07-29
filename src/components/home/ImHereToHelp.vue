@@ -3,10 +3,10 @@
 <template>
   <div class="relative bg-slate-900">
     <div
-      class="relative h-80 overflow-hidden md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
+      class="relative overflow-hidden h-80 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
     >
       <img
-        class="h-full w-full object-cover"
+        class="object-cover w-full h-full"
         src="/natasha-instructing.webp"
         alt="Natasha instructing a client"
         width="780"
@@ -37,7 +37,7 @@
         </defs>
       </svg>
     </div>
-    <div class="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
+    <div class="relative py-24 mx-auto max-w-7xl sm:py-32 lg:px-8 lg:py-40">
       <div
         class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32"
       >
@@ -45,7 +45,7 @@
           You want your money to give you security and freedom
         </h2>
         <p
-          class="mt-2 text-4xl font-header font-bold tracking-tight text-white sm:text-4xl"
+          class="mt-2 text-4xl font-bold tracking-tight text-white font-header sm:text-4xl"
         >
           I'm here to help
         </p>
@@ -53,10 +53,10 @@
           You need a clear path forward with your money. You need to feel like
           things are moving in the right direction.
         </p>
-        <div class="mt-10 flex">
+        <div class="flex mt-10">
           <a
             href="/services"
-            class="bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 text-white shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            class="px-5 py-3 text-base font-semibold text-white rounded-full shadow-lg bg-fuchsia-600 hover:bg-fuchsia-500 focus-visible:outline-fuchsia-700 shadow-fuchsia-600/30 hover:shadow-fuchsia-500/30"
             >Learn how</a
           >
         </div>

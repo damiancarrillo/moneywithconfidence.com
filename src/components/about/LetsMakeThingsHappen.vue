@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-white py-16 lg:py-24">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="py-16 bg-white lg:py-24">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="grid items-start max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <div class="lg:pr-4">
           <img
-            class="aspect-square object-top object-cover rounded-xl shadow-xl"
+            class="object-cover object-top shadow-xl aspect-square rounded-xl"
             src="/natasha-hips.webp"
             alt="Natasha posing with her hands on her hips"
           />
@@ -17,7 +17,7 @@
               You and me together
             </p>
             <h1
-              class="mt-2 text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-2 text-3xl font-bold tracking-tight text-gray-900 font-header sm:text-4xl"
             >
               Let's make things happen
             </h1>
@@ -51,10 +51,10 @@
                 someone who has your best interests in mind.
               </p>
             </div>
-            <div class="mt-10 flex">
+            <div class="flex mt-10">
               <a
                 href="/services"
-                class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+                class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
                 >Let&rsquo;s work together</a
               >
             </div>

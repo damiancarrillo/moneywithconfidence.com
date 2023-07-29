@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-5xl font-bold font-header tracking-tight text-gray-900">
+  <h1 class="text-5xl font-bold tracking-tight text-gray-900 font-header">
     Let's reimagine your money together
   </h1>
   <p
@@ -9,7 +9,7 @@
     supporting you or your organization or team on your money journey.
   </p>
   <p
-    class="relative mt-6 text-med leading-8 text-gray-900 sm:max-w-md lg:max-w-none"
+    class="relative mt-6 leading-8 text-gray-900 text-med sm:max-w-md lg:max-w-none"
   >
     Fill out the contact form below to connect, or you can reach me at
     <a

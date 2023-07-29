@@ -1,11 +1,11 @@
 <template>
   <section class="bg-pink-50 py-14">
-    <div class="mx-auto max-w-6xl px-6 lg:px-8">
+    <div class="max-w-6xl px-6 mx-auto lg:px-8">
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="grid max-w-2xl grid-cols-1 mx-auto lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-          <figure class="mt-2 flex flex-auto flex-col justify-between">
+          <figure class="flex flex-col justify-between flex-auto mt-2">
             <blockquote class="text-lg leading-8 text-pink-900">
               <p>
                 &ldquo;The most important thing I learned today was
@@ -15,9 +15,9 @@
                 it.&rdquo;
               </p>
             </blockquote>
-            <figcaption class="mt-10 flex items-center gap-x-6">
+            <figcaption class="flex items-center mt-10 gap-x-6">
               <img
-                class="h-14 w-14 rounded-full bg-gray-50"
+                class="rounded-full h-14 w-14 bg-gray-50"
                 src="/pexels-thisisengineering-3862601.webp"
                 alt=""
               />
@@ -31,9 +31,9 @@
           </figure>
         </div>
         <div
-          class="flex flex-col border-t border-red-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20"
+          class="flex flex-col pt-10 border-t border-red-900/10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20"
         >
-          <figure class="mt-10 flex flex-auto flex-col justify-between">
+          <figure class="flex flex-col justify-between flex-auto mt-10">
             <blockquote class="text-lg leading-8 text-pink-900">
               <p>
                 &ldquo;Natasha is very knowledgeable with great ideas for how to
@@ -42,9 +42,9 @@
                 approach.&rdquo;
               </p>
             </blockquote>
-            <figcaption class="mt-10 flex items-center gap-x-6">
+            <figcaption class="flex items-center mt-10 gap-x-6">
               <img
-                class="h-14 w-14 rounded-full bg-gray-50"
+                class="rounded-full h-14 w-14 bg-gray-50"
                 src="/pexels-pixabay-157776.webp"
                 alt=""
               />

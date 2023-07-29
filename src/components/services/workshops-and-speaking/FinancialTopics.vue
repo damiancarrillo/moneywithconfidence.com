@@ -1,12 +1,12 @@
 <template>
-  <div class="max-w-2xl mx-auto py-20">
+  <div class="max-w-2xl py-20 mx-auto">
     <div class="px-6">
-      <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl pb-12">
+      <h2 class="pb-12 text-3xl text-gray-900 font-bol font-header sm:text-4xl">
         Here are just a few topics I can cover
       </h2>
     </div>
     <div
-      class="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0"
+      class="overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0"
     >
       <div
         v-for="(action, actionIdx) in actions"
@@ -31,7 +31,7 @@
               'inline-flex rounded-lg p-3 ring-4 ring-white',
             ]"
           >
-            <component :is="action.icon" class="h-6 w-6" aria-hidden="true" />
+            <component :is="action.icon" class="w-6 h-6" aria-hidden="true" />
           </span>
         </div>
         <div class="mt-8">
@@ -46,9 +46,9 @@
     </div>
     <div class="mt-16 text-center">
       <a
-        href="https://tidycal.com/moneywithconfidence/clarity-session"
+        href="https://tidycal.com/moneywithconfidence/workshop-or-speaking-planning"
         target="_blank"
-        class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+        class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
         >Let&rsquo;s get started</a
       >
     </div>

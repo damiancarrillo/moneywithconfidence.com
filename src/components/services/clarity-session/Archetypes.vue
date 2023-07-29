@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-yellow-50 py-4">
-    <div class="mx-auto max-w-6xl px-6">
+  <div class="py-4 bg-yellow-50">
+    <div class="max-w-6xl px-6 mx-auto">
       <ul
         role="list"
-        class="mx-auto my-12 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
+        class="grid max-w-2xl grid-cols-1 mx-auto my-12 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
       >
         <li
           v-for="person in people"

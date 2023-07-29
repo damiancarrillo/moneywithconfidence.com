@@ -2,13 +2,13 @@
   <div class="bg-sky-50">
     <section
       aria-labelledby="features-heading"
-      class="mx-auto max-w-7xl py-20 sm:px-2 lg:px-8"
+      class="py-20 mx-auto max-w-7xl sm:px-2 lg:px-8"
     >
-      <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+      <div class="max-w-2xl px-4 mx-auto lg:max-w-none lg:px-0">
         <div class="max-w-3xl">
           <h2
             id="features-heading"
-            class="text-3xl font-bold font-header tracking-tight text-gray-900 sm:text-4xl"
+            class="text-3xl font-bold tracking-tight text-gray-900 font-header sm:text-4xl"
           >
             The Process
           </h2>
@@ -16,7 +16,7 @@
             The <strong class="font-semibold">Clarity Session</strong> is about
             three things:
           </p>
-          <ol class="list-inside list-decimal pt-6">
+          <ol class="pt-6 list-decimal list-inside">
             <li class="list-item">
               Understanding your
               <strong class="font-semibold">spending patterns</strong>, and
@@ -35,7 +35,7 @@
               <strong class="font-semibold">Implementing</strong> the plan.
             </li>
           </ol>
-          <h3 class="mt-6 font-bold font-header text-xl">
+          <h3 class="mt-6 text-xl font-bold font-header">
             A Custom Plan for Your Money
           </h3>
           <p class="mt-6">
@@ -46,9 +46,9 @@
         </div>
 
         <TabGroup as="div" class="mt-4">
-          <div class="-mx-4 flex overflow-x-auto overflow-y-hidden sm:mx-0">
-            <div class="flex-auto border-b border-sky-200 px-4 sm:px-0">
-              <TabList class="-mb-px flex space-x-10">
+          <div class="flex -mx-4 overflow-x-auto overflow-y-hidden sm:mx-0">
+            <div class="flex-auto px-4 border-b border-sky-200 sm:px-0">
+              <TabList class="flex -mb-px space-x-10">
                 <Tab
                   as="template"
                   v-for="tab in tabs"
@@ -74,7 +74,7 @@
             <TabPanel
               v-for="tab in tabs"
               :key="tab.name"
-              class="space-y-16 pt-10 lg:pt-16"
+              class="pt-10 space-y-16 lg:pt-16"
             >
               <div
                 v-for="feature in tab.features"
@@ -91,7 +91,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div
-                    class="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-sky-100 sm:aspect-h-2 sm:aspect-w-5"
+                    class="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 bg-sky-100 sm:aspect-h-2 sm:aspect-w-5"
                   >
                     <img
                       :src="feature.imageSrc"

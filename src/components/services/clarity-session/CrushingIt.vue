@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white my-20">
+  <div class="my-20 bg-white">
     <div class="px-6">
-      <div class="mx-auto max-w-2xl pb-10">
-        <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl">
+      <div class="max-w-2xl pb-10 mx-auto">
+        <h2 class="text-3xl text-gray-900 font-bol font-header sm:text-4xl">
           You&rsquo;re crushing it in your career. Now it&rsquo;s time to master
           your money.
         </h2>
@@ -20,7 +20,7 @@
             <img
               src="/natasha-celebrating.webp"
               alt="Natasha sitting down while talking on the phone"
-              class="rounded-xl shadow-xl"
+              class="shadow-xl rounded-xl"
               width="1200"
               height="800"
             />
@@ -53,7 +53,7 @@
           <a
             href="https://tidycal.com/moneywithconfidence/clarity-session"
             target="_blank"
-            class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
+            class="px-5 py-3 text-base font-semibold text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40"
             >Let&rsquo;s get started</a
           >
         </div>

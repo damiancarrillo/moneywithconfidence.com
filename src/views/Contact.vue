@@ -5,23 +5,23 @@
         <SquareLines></SquareLines>
         <BlurredBackground></BlurredBackground>
         <div class="overflow-hidden">
-          <div class="mx-auto max-w-7xl px-6 pb-32 pt-14 lg:pt-10 xl:pt-14">
+          <div class="px-6 pb-32 mx-auto max-w-7xl pt-14 lg:pt-10 xl:pt-14">
             <div
-              class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none"
+              class="max-w-2xl mx-auto gap-x-14 lg:mx-0 lg:flex lg:max-w-none"
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <IntroSection></IntroSection>
                 <form novalidate>
-                  <div class="space-y-12 pt-16">
-                    <div class="border-b border-gray-900/10 pb-12">
+                  <div class="pt-16 space-y-12">
+                    <div class="pb-12 border-b border-gray-900/10">
                       <h2
-                        class="text-2xl font-bold font-header leading-7 text-gray-900"
+                        class="text-2xl font-bold leading-7 text-gray-900 font-header"
                       >
                         Contact Form
                       </h2>
 
                       <div
-                        class="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6"
+                        class="grid grid-cols-1 mt-6 gap-x-6 gap-y-8 sm:grid-cols-6"
                       >
                         <div class="sm:col-span-4">
                           <label
@@ -60,7 +60,7 @@
                         </div>
                       </div>
                       <h2
-                        class="text-base font-semibold leading-7 text-gray-900 pb-4 mt-10"
+                        class="pb-4 mt-10 text-base font-semibold leading-7 text-gray-900"
                       >
                         What are you interested in?
                       </h2>
@@ -70,14 +70,14 @@
                         </legend>
                         <div class="space-y-5">
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="one-on-one-financial-coaching"
                                 aria-describedby="one-on-one-financial-coaching-description"
                                 title="One-on-one financial coaching"
                                 v-model="oneOnOneFinancialCoaching"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -95,14 +95,14 @@
                             </div>
                           </div>
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="workshop-facilitation"
                                 aria-describedby="workshop-facilitation-description"
                                 title="Workshop facilitation"
                                 v-model="workshopFacilitation"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -121,14 +121,14 @@
                             </div>
                           </div>
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="group-coaching"
                                 aria-describedby="group-coaching-description"
                                 title="Group coaching"
                                 v-model="groupCoaching"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -147,14 +147,14 @@
                             </div>
                           </div>
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="podcast-guesting"
                                 aria-describedby="podcast-guesting-description"
                                 title="Podcast guesting"
                                 v-model="podcastGuesting"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -179,14 +179,14 @@
                             </div>
                           </div>
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="media-request"
                                 aria-describedby="media-request-description"
                                 title="Media request"
                                 v-model="mediaRequest"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -205,14 +205,14 @@
                             </div>
                           </div>
                           <div class="relative flex items-start">
-                            <div class="flex h-6 items-center">
+                            <div class="flex items-center h-6">
                               <input
                                 id="other-request"
                                 aria-describedby="other-request-description"
                                 title="Other request"
                                 v-model="otherRequest"
                                 type="checkbox"
-                                class="h-4 w-4 rounded border-gray-300 text-purple-500 focus:ring-purple-500"
+                                class="w-4 h-4 text-purple-500 border-gray-300 rounded focus:ring-purple-500"
                               />
                             </div>
                             <div class="ml-3 text-sm leading-6">
@@ -237,7 +237,7 @@
                             class="block text-sm font-medium leading-6 text-gray-900"
                           >
                             <h2
-                              class="text-base font-semibold leading-7 text-gray-900 pb-1"
+                              class="pb-1 text-base font-semibold leading-7 text-gray-900"
                             >
                               Where did you hear about Money with Confidence?
                             </h2>
@@ -250,21 +250,21 @@
                                 selected.name
                               }}</span>
                               <span
-                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                                class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
                               >
                                 <ChevronUpDownIcon
-                                  class="h-5 w-5 text-gray-400"
+                                  class="w-5 h-5 text-gray-400"
                                   aria-hidden="true"
                                 />
                               </span>
                             </ListboxButton>
                             <transition
-                              leave-active-class="transition ease-in duration-100"
+                              leave-active-class="transition duration-100 ease-in"
                               leave-from-class="opacity-100"
                               leave-to-class="opacity-0"
                             >
                               <ListboxOptions
-                                class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+                                class="absolute z-10 w-full py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
                               >
                                 <ListboxOption
                                   as="template"
@@ -298,7 +298,7 @@
                                       ]"
                                     >
                                       <CheckIcon
-                                        class="h-5 w-5"
+                                        class="w-5 h-5"
                                         aria-hidden="true"
                                       />
                                     </span>
@@ -315,7 +315,7 @@
                           class="block text-sm font-medium leading-6 text-gray-900"
                         >
                           <h2
-                            class="text-base font-semibold leading-7 text-gray-900 pb-1"
+                            class="pb-1 text-base font-semibold leading-7 text-gray-900"
                           >
                             Send me your comments or questions
                           </h2>
@@ -332,11 +332,11 @@
                     </div>
                   </div>
 
-                  <div class="mt-6 flex items-center justify-end gap-x-6">
+                  <div class="flex items-center justify-end mt-6 gap-x-6">
                     <button
                       type="button"
                       @click="submitForm"
-                      class="rounded-full bg-purple-500 px-10 py-2 text-sm font-semibold text-white shadow-purple-400/50 hover:shadow-purple-400/30 shadow-md hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
+                      class="px-10 py-2 text-sm font-semibold text-white bg-purple-500 rounded-full shadow-md shadow-purple-400/50 hover:shadow-purple-400/30 hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
                     >
                       Send
                     </button>
@@ -345,10 +345,10 @@
               </div>
 
               <div
-                class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
+                class="flex justify-end gap-8 mt-14 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
               >
                 <div
-                  class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
+                  class="flex-none pt-32 ml-auto space-y-8 w-44 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
                 >
                   <div class="relative">
                     <img
@@ -357,12 +357,12 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
+                      class="absolute inset-0 pointer-events-none rounded-xl ring-0"
                     />
                   </div>
                 </div>
                 <div
-                  class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36"
+                  class="flex-none mr-auto space-y-8 w-44 sm:mr-0 sm:pt-52 lg:pt-36"
                 >
                   <div class="relative">
                     <img
@@ -371,7 +371,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
+                      class="absolute inset-0 pointer-events-none rounded-xl ring-0"
                     />
                   </div>
                   <div class="relative">
@@ -381,11 +381,11 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
+                      class="absolute inset-0 pointer-events-none rounded-xl ring-0"
                     />
                   </div>
                 </div>
-                <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                <div class="flex-none pt-32 space-y-8 w-44 sm:pt-0">
                   <div class="relative">
                     <img
                       src="/natasha-contact-2.webp"
@@ -393,7 +393,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
+                      class="absolute inset-0 pointer-events-none rounded-xl ring-0"
                     />
                   </div>
                   <div class="relative">
@@ -403,7 +403,7 @@
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
-                      class="pointer-events-none absolute inset-0 rounded-xl ring-0"
+                      class="absolute inset-0 pointer-events-none rounded-xl ring-0"
                     />
                   </div>
                 </div>
@@ -426,13 +426,13 @@
         leave-to="opacity-0"
       >
         <div
-          class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+          class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
         />
       </TransitionChild>
 
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div
-          class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+          class="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0"
         >
           <TransitionChild
             as="template"
@@ -444,14 +444,14 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6"
+              class="relative px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-sm sm:p-6"
             >
               <div>
                 <div
-                  class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100"
+                  class="flex items-center justify-center w-12 h-12 mx-auto bg-green-100 rounded-full"
                 >
                   <CheckIcon
-                    class="h-6 w-6 text-green-600"
+                    class="w-6 h-6 text-green-600"
                     aria-hidden="true"
                   />
                 </div>
@@ -472,7 +472,7 @@
               <div class="mt-5 sm:mt-6">
                 <button
                   type="button"
-                  class="inline-flex w-full justify-center rounded-full bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 py-2"
+                  class="inline-flex justify-center w-full py-2 text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 focus-visible:outline-purple-700 shadow-purple-400/60 hover:shadow-purple-700/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                   @click="openSuccessAlert = false"
                 >
                   Done
@@ -500,13 +500,13 @@
         leave-to="opacity-0"
       >
         <div
-          class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+          class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
         />
       </TransitionChild>
 
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div
-          class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+          class="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0"
         >
           <TransitionChild
             as="template"
@@ -518,14 +518,14 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
+              class="relative px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
             >
               <div class="sm:flex sm:items-start">
                 <div
-                  class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"
+                  class="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-red-100 rounded-full sm:mx-0 sm:h-10 sm:w-10"
                 >
                   <ExclamationTriangleIcon
-                    class="h-6 w-6 text-red-600"
+                    class="w-6 h-6 text-red-600"
                     aria-hidden="true"
                   />
                 </div>
@@ -546,7 +546,7 @@
               <div class="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
                 <button
                   type="button"
-                  class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                  class="inline-flex justify-center w-full px-3 py-2 mt-3 text-sm font-semibold text-gray-900 bg-white rounded-md shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
                   @click="openNameValidationAlert = false"
                   ref="cancelButtonRef"
                 >
@@ -575,13 +575,13 @@
         leave-to="opacity-0"
       >
         <div
-          class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+          class="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
         />
       </TransitionChild>
 
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div
-          class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+          class="flex items-end justify-center min-h-full p-4 text-center sm:items-center sm:p-0"
         >
           <TransitionChild
             as="template"
@@ -593,14 +593,14 @@
             leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <DialogPanel
-              class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
+              class="relative px-4 pt-5 pb-4 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
             >
               <div class="sm:flex sm:items-start">
                 <div
-                  class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"
+                  class="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-red-100 rounded-full sm:mx-0 sm:h-10 sm:w-10"
                 >
                   <ExclamationTriangleIcon
-                    class="h-6 w-6 text-red-600"
+                    class="w-6 h-6 text-red-600"
                     aria-hidden="true"
                   />
                 </div>
@@ -621,7 +621,7 @@
               <div class="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
                 <button
                   type="button"
-                  class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                  class="inline-flex justify-center w-full px-3 py-2 mt-3 text-sm font-semibold text-gray-900 bg-white rounded-md shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
                   @click="openEmailValidationAlert = false"
                   ref="cancelButtonRef"
                 >
