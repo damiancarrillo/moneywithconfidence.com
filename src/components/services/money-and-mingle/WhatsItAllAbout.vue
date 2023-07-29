@@ -67,63 +67,61 @@
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div
-                      class="h-64 overflow-hidden rounded-lg w-44 sm:opacity-0 lg:opacity-100"
-                    >
+                    <div class="h-64 w-44 sm:opacity-0 lg:opacity-100">
                       <img
                         src="/natasha-services-money-with-confidence-1.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-2.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-4.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-3.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-7.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
                   <div
                     class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
                   >
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-5.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
-                    <div class="h-64 overflow-hidden rounded-lg w-44">
+                    <div class="h-64 rounded-lg w-44">
                       <img
                         src="/natasha-services-money-with-confidence-6.webp"
                         alt=""
-                        class="object-cover object-center w-full h-full"
+                        class="object-cover object-center w-full h-full rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
