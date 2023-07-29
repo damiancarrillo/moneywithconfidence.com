@@ -18,4 +18,15 @@
       >hello@moneywithconfidence.com</a
     >
   </p>
+  <div class="relative lg:hidden pt-10">
+    <div class="max-w-3xl mx-auto lg:px-8">
+      <img
+        src="/natasha-contact-2.webp"
+        alt="Natasha standing in front of an interesting wall"
+        class="shadow-xl rounded-xl"
+        width="1200"
+        height="800"
+      />
+    </div>
+  </div>
 </template>
