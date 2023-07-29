@@ -8,7 +8,7 @@
         <p
           class="mt-4 text-5xl font-bold font-header tracking-tight text-gray-900"
         >
-          Money and Mocktails
+          Money and Mingle
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-900">
           Intimate money conversations with your peers to inspire growth and

@@ -12,7 +12,7 @@ import NotFound from "./views/NotFound.vue";
 
 import ServicesClaritySession from "./views/services/ClaritySession.vue";
 import ServicesWorkshopsAndSpeaking from "./views/services/WorkshopsAndSpeaking.vue";
-import ServicesMoneyAndMocktails from "./views/services/MoneyAndMocktails.vue";
+import ServicesMoneyAndMingle from "./views/services/MoneyAndMingle.vue";
 
 import Credits from "./views/footer/Credits.vue";
 import Terms from "./views/footer/Terms.vue";
@@ -35,8 +35,8 @@ const servicesRoutes = [
     component: ServicesWorkshopsAndSpeaking,
   },
   {
-    path: "/services/money-and-mocktails",
-    component: ServicesMoneyAndMocktails,
+    path: "/services/money-and-mingle",
+    component: ServicesMoneyAndMingle,
   },
 ];
 

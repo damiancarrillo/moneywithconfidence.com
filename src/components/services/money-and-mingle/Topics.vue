@@ -2,7 +2,7 @@
   <div class="max-w-2xl mx-auto py-20">
     <div class="px-6">
       <h2 class="text-3xl font-bol font-header text-gray-900 sm:text-4xl pb-12">
-        Money and Mocktails is a safe space to discuss any and all topics
+        Money and Mingle is a safe space to discuss any and all topics
       </h2>
     </div>
     <div
@@ -46,7 +46,7 @@
     </div>
     <div class="mt-16 text-center">
       <a
-        href="https://tidycal.com/moneywithconfidence/money-and-mocktails"
+        href="https://tidycal.com/moneywithconfidence/money-and-mingle"
         target="_blank"
         class="bg-purple-600 hover:bg-purple-700 focus-visible:outline-purple-700 text-white shadow-purple-400/60 hover:shadow-purple-700/40 shadow-lg rounded-full px-5 py-3 text-base font-semibold"
         >Let&rsquo;s get started</a

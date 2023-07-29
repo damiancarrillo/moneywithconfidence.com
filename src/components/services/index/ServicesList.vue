@@ -82,14 +82,14 @@ import { CheckIcon } from "@heroicons/vue/20/solid";
 
 const tiers = [
   {
-    name: "Money and Mocktails",
-    id: "service-money-and-mocktails",
-    href: "/services/money-and-mocktails",
+    name: "Money and Mingle",
+    id: "service-money-and-mingle",
+    href: "/services/money-and-mingle",
     description:
       "A casual, yet intimate and fun, money hangout that promotes growth through conversation.",
     features: [
       "You bring your friend group",
-      "I bring the mocktails",
+      "You bring your mingle mentality",
       "Guided conversations in a safe space",
       "Good for collective self-improvement",
       "You will realize money conversations are fun",
