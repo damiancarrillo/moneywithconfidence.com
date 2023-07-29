@@ -41,7 +41,7 @@
           </div>
         </div>
         <div
-          class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents hidden"
+          class="flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents hidden"
         >
           <div
             class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end"
