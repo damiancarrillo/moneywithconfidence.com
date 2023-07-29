@@ -1,8 +1,19 @@
 <template>
   <div class="relative pt-10 overflow-hidden bg-white">
-    <div class="pt-16 pb-80 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-      <div class="relative px-4 mx-auto max-w-7xl sm:static sm:px-6 lg:px-8">
-        <div class="text-gray-900 sm:max-w-lg">
+    <div class="pt-16 pb-16 xl:pb-48 xl:pt-40">
+      <div class="relative px-6 mx-auto max-w-7xl sm:static sm:px-6 lg:px-8">
+        <div class="relative xl:hidden pb-16">
+          <div class="max-w-3xl mx-auto lg:px-8">
+            <img
+              src="/natasha-services-money-with-confidence-8.webp"
+              alt="Natasha sitting down on a green couch while smiling"
+              class="shadow-xl rounded-xl"
+              width="1200"
+              height="800"
+            />
+          </div>
+        </div>
+        <div class="text-gray-900 sm:max-w-2xl xl:max-w-lg mx-auto xl:mx-0">
           <h2 class="text-3xl font-bold tracking-tight font-header sm:text-4xl">
             What&rsquo;s it all about?
           </h2>
@@ -34,7 +45,7 @@
             >.
           </p>
         </div>
-        <div class="mt-16">
+        <div class="mt-16 mx-auto xl:mx-0 text-center xl:text-left">
           <a
             href="https://tidycal.com/moneywithconfidence/money-and-mingle"
             target="_blank"
@@ -47,7 +58,7 @@
             <!-- Decorative image grid -->
             <div
               aria-hidden="true"
-              class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+              class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl hidden xl:contents"
             >
               <div
                 class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8"
