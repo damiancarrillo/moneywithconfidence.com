@@ -1,5 +1,6 @@
 import * as Vue from "vue";
 import * as VueRouter from "vue-router";
+import { createHead } from "@unhead/vue";
 import "./style.css";
 
 import App from "./App.vue";
@@ -20,6 +21,7 @@ import Privacy from "./views/footer/Privacy.vue";
 import Disclaimer from "./views/footer/Disclaimer.vue";
 
 const app = Vue.createApp(App);
+const head = createHead();
 
 const navigationRoutes = [
   { path: "/", component: Home },
@@ -63,5 +65,6 @@ const router = VueRouter.createRouter({
     .concat(additionalRoutes),
 });
 
+app.use(head);
 app.use(router);
 app.mount("#app");

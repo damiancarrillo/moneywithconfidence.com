@@ -1,11 +1,5 @@
 import { Handler, HandlerContext, HandlerEvent } from "@netlify/functions";
-import {
-  MailerSend,
-  MailerSendConfig,
-  EmailParams,
-  Sender,
-  Recipient,
-} from "mailersend";
+import { MailerSend, EmailParams, Sender, Recipient } from "mailersend";
 
 import {
   type ContactForm,
