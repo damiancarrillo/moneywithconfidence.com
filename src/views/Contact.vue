@@ -662,6 +662,34 @@ import {
   TransitionRoot,
 } from "@headlessui/vue";
 
+import { useServerSeoMeta } from "@unhead/vue";
+import * as Site from "../assets/js/Site";
+import { type PageAttributes } from "../assets/js/Site";
+
+const pageAttrs: PageAttributes = {
+  title: "Contact",
+  description:
+    "Thank you for your interest in Money with Confidence. I look forward to supporting you or your organization or team on your money journey.",
+  image: {
+    fileName: "natasha-contact-2-open-graph.jpg",
+    alt: "Natasha wearing a colorful scarf and posing in front of an interesting wall",
+  },
+};
+
+useServerSeoMeta({
+  title: `${pageAttrs.title} - ${Site.title}`,
+  ogTitle: `${pageAttrs.title} - ${Site.title}`,
+  ogDescription: `${pageAttrs.description}`,
+  ogImage: `http://${Site.domain}/${pageAttrs.image.fileName}`,
+  ogImageSecureUrl: `https://${Site.domain}/${pageAttrs.image.fileName}`,
+  ogImageAlt: `${pageAttrs.image.alt}`,
+  ogSiteName: `${Site.name}`,
+  ogLocale: "en_US",
+  ogImageType: "image/jpeg",
+  ogImageWidth: "600",
+  ogImageHeight: "400",
+});
+
 let name = "";
 let email = "";
 let oneOnOneFinancialCoaching = false;
