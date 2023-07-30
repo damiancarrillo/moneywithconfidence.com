@@ -44,24 +44,50 @@ import NavbarMobileItem from "./navbar/NavbarMobileItem.vue";
       </div>
     </div>
 
-    <DisclosurePanel class="sm:hidden">
-      <div class="pt-2 pb-3">
-        <NavbarMobileItem href="/">Home</NavbarMobileItem>
-        <NavbarMobileItem href="/services">Services</NavbarMobileItem>
-        <NavbarMobileItem href="/services/clarity-session" class="ml-10"
-          >Clarity Session</NavbarMobileItem
-        >
-        <NavbarMobileItem href="/services/workshops-and-speaking" class="ml-10"
-          >Workshops and Speaking</NavbarMobileItem
-        >
-        <NavbarMobileItem href="/services/money-and-mingle" class="ml-10"
-          >Money and Mingle</NavbarMobileItem
-        >
-        <NavbarMobileItem href="/about">About</NavbarMobileItem>
-        <NavbarMobileItem href="/contact">Contact</NavbarMobileItem>
-      </div>
-      <hr />
-    </DisclosurePanel>
+    <transition
+      enter-active-class="transition duration-100 ease-out"
+      enter-from-class="transform scale-95 opacity-0"
+      enter-to-class="transform scale-100 opacity-100"
+      leave-active-class="transition duration-75 ease-out"
+      leave-from-class="transform scale-100 opacity-100"
+      leave-to-class="transform scale-95 opacity-0"
+    >
+      <DisclosurePanel class="sm:hidden">
+        <div class="pt-2 pb-3">
+          <DisclosureButton :as="NavbarMobileItem" href="/"
+            >Home</DisclosureButton
+          >
+          <DisclosureButton :as="NavbarMobileItem" href="/services"
+            >Services</DisclosureButton
+          >
+          <DisclosureButton
+            :as="NavbarMobileItem"
+            href="/services/clarity-session"
+            class="ml-10"
+            >Clarity Session</DisclosureButton
+          >
+          <DisclosureButton
+            :as="NavbarMobileItem"
+            href="/services/workshops-and-speaking"
+            class="ml-10"
+            >Workshops and Speaking</DisclosureButton
+          >
+          <DisclosureButton
+            :as="NavbarMobileItem"
+            href="/services/money-and-mingle"
+            class="ml-10"
+            >Money and Mingle</DisclosureButton
+          >
+          <DisclosureButton :as="NavbarMobileItem" href="/about"
+            >About</DisclosureButton
+          >
+          <DisclosureButton :as="NavbarMobileItem" href="/contact"
+            >Contact</DisclosureButton
+          >
+        </div>
+        <hr />
+      </DisclosurePanel>
+    </transition>
   </Disclosure>
 </template>
 
