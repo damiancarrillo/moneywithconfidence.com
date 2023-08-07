@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import { MicrophoneIcon } from "@heroicons/vue/24/solid";
 import Logo from "./Logo.vue";
 import NavbarItem from "./navbar/NavbarItem.vue";
 import NavbarMobileItem from "./navbar/NavbarMobileItem.vue";
+import ExternalLink from "./navbar/ExternalLink.vue";
 </script>
 
 <template>
@@ -23,6 +25,13 @@ import NavbarMobileItem from "./navbar/NavbarMobileItem.vue";
           <NavbarItem href="/services">Services</NavbarItem>
           <NavbarItem href="/about">About</NavbarItem>
           <NavbarItem href="/contact">Contact</NavbarItem>
+          <ExternalLink href="https://blackandbrownmakegreen.com">
+            <div class="flex items-center">
+              Podcast
+              <MicrophoneIcon
+                class="block w-4 h-4 ml-1 text-purple-600 m-l"
+              /></div
+          ></ExternalLink>
         </div>
         <div class="flex items-center -mr-2 sm:hidden">
           <DisclosureButton
