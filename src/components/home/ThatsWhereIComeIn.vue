@@ -38,7 +38,9 @@
           </p>
           <p class="mt-6 text-base leading-7 text-black">
             I am also the creator of
-            <a href="https://www.blackandbrownmakegreen.com/"
+            <a
+              class="text-purple-800 underline hover:text-purple-400"
+              href="https://www.blackandbrownmakegreen.com/"
               >Black and Brown Make Green</a
             >, a financial education podcast, that I co-host with my husband,
             Damian. We have over 50 episodes sharing money tips and strategies
