@@ -93,6 +93,13 @@ import ExternalLink from "./navbar/ExternalLink.vue";
           <DisclosureButton :as="NavbarMobileItem" href="/contact"
             >Contact</DisclosureButton
           >
+          <ExternalLink href="https://blackandbrownmakegreen.com">
+            <div class="flex items-center ml-1">
+              Podcast
+              <MicrophoneIcon
+                class="block w-4 h-4 ml-1 text-purple-600 m-l"
+              /></div
+          ></ExternalLink>
         </div>
         <hr />
       </DisclosurePanel>
