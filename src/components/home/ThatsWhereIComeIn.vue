@@ -22,15 +22,35 @@
             That&rsquo;s where I come in
           </h2>
           <p class="mt-6 text-xl leading-8 text-black">
-            I&rsquo;m Natasha and I&rsquo;m determined to help you find clarity
-            and confidence on your money journey.
+            I&rsquo;m Natasha, a financial educator and coach, and I&rsquo;m
+            determined to help you find clarity and confidence on your money
+            journey.
           </p>
           <p class="mt-6 text-lg leading-7 text-black">
-            I&rsquo;m here to help you feel empowered to make money decisions
-            without the uncertainty. I&rsquo;m here to help you be more
-            intentional with your money while getting exactly what you want out
-            of life. I&rsquo;m here to help you manage your money with
-            confidence!
+            I have a passion for money and education, and I specialize in making
+            money easy to understand. My superpower is helping you turn your
+            money goals into reality.
+          </p>
+          <p class="mt-6 text-base leading-7 text-black">
+            I&rsquo;m just like you - I&rsquo;m a mom of 2, a wife, a former
+            teacher, a sister, an aunt, a volunteer in my community…Life can be
+            busy and stressful, but money doesn&rsquo;t have to be. Let me help.
+          </p>
+          <p class="mt-6 text-base leading-7 text-black">
+            I am also the creator of
+            <a
+              class="text-purple-800 underline hover:text-purple-400"
+              href="https://www.blackandbrownmakegreen.com/"
+              >Black and Brown Make Green</a
+            >, a financial education podcast, that I co-host with my husband,
+            Damian. We have over 50 episodes sharing money tips and strategies
+            to help you increase your wealth.
+          </p>
+          <p class="mt-6 text-base leading-7 text-black">
+            Are you ready to feel empowered to make money decisions without the
+            uncertainty? Are you ready to be more intentional with your money
+            while getting exactly what you want out of life? Are you ready to
+            manage your money with confidence?
           </p>
           <div class="flex mt-10">
             <a
@@ -50,6 +70,11 @@
               src="/natasha-walking.webp"
               alt="Natasha walking toward the camera while on the phone"
               class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-xl"
+            />
+            <img
+              src="/natasha-purple-phone.webp"
+              alt="Natasha on the phone with a client"
+              class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover shadow-xl mt-5"
             />
           </div>
           <div
