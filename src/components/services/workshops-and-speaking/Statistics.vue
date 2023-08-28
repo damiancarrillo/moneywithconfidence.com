@@ -5,23 +5,11 @@
       <ul class="ml-5 list-disc list-outside">
         <li>
           43% of Americans don&rsquo;t have $1k saved for an emergency?
-          <sup
-            ><a
-              class="text-purple-800 underline hover:text-purple-400"
-              href="#sources"
-              >1</a
-            ></sup
-          >
+          <sup>1</sup>
         </li>
         <li>
           65% of Americans are significantly stressed about money?
-          <sup
-            ><a
-              class="text-purple-800 underline hover:text-purple-400"
-              href="#sources"
-              >2</a
-            ></sup
-          >
+          <sup>2</sup>
         </li>
       </ul>
       <p class="mt-6 text-lg leading-8">
@@ -42,13 +30,7 @@
           >those who plan also accumulate more wealth</strong
         >
         <em> (Lusardi and Mitchell 2007a, b, 2011a, 2011b) </em>
-        <sup
-          ><a
-            class="text-purple-800 underline hover:text-purple-400"
-            href="#sources"
-            >3</a
-          ></sup
-        >.
+        <sup>3</sup>.
       </p>
     </div>
 
