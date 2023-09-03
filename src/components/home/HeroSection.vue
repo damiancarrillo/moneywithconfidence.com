@@ -22,8 +22,10 @@
           money decisions…because managing money shouldn&rsquo;t be that hard.
         </p>
         <p class="mt-6 text-base text-black xl:text-xl">
-          Hi I&rsquo;m Natasha of Money with Confidence. Let's craft your new
-          money plan together.
+          Hi I&rsquo;m Natasha of Money with Confidence. Let's make a money plan
+          you&rsquo;ll
+          <span class="font-semibold">love</span>
+          together.
         </p>
         <div class="flex items-center mx-0 mt-10 gap-x-6">
           <a
