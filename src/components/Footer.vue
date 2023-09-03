@@ -71,8 +71,8 @@ const navigation = {
         </div>
       </nav>
       <p class="mt-10 text-xs leading-5 text-center text-gray-500">
-        &copy; {{ new Date().getFullYear().toString() }} Black and Brown Make
-        Green, LLC. All rights reserved.
+        &copy; {{ new Date().getFullYear().toString() }} Money with Confidence,
+        DBA Black and Brown Make Green, LLC.
       </p>
       <div class="flex justify-center mt-10 space-x-10">
         <a

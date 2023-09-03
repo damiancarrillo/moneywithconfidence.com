@@ -12,14 +12,18 @@
         class="max-w-2xl pt-0 pb-8 mx-auto md:pt-8 lg:pb-16 lg:pt-10 md:col-span-6"
       >
         <h1
-          class="pt-6 text-5xl font-bold tracking-tight text-gray-900 xl:text-6xl font-header lg:pt-8 xl:pt-10 2xl:pt-2"
+          class="pt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl font-header lg:pt-8 xl:pt-10 2xl:pt-2"
         >
-          Make a money plan you&rsquo;ll
-          <span class="uppercase highlighted">love</span>
+          Manage Your Money with
+          <span class="uppercase highlighted">Confidence</span>
         </h1>
         <p class="mt-6 text-lg text-black xl:text-xl 2xl:text-2xl">
           Coaching, conversations, and workshops to make you confident with your
           money decisions…because managing money shouldn&rsquo;t be that hard.
+        </p>
+        <p class="mt-6 text-base text-black xl:text-xl">
+          Hi I&rsquo;m Natasha of Money with Confidence. Let's craft your new
+          money plan together.
         </p>
         <div class="flex items-center mx-0 mt-10 gap-x-6">
           <a
