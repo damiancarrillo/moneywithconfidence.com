@@ -1,4 +1,5 @@
 [[redirects]]
   from = "/powerhour"
   to = "https://tidycal.com/moneywithconfidence/60-minute-meeting"
-  status = 302
+  status = 200
+  force = true
